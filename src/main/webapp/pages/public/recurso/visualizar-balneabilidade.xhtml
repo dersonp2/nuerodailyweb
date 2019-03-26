@@ -1,0 +1,102 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:f="http://java.sun.com/jsf/core"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                xmlns:p="http://primefaces.org/ui" template="/WEB-INF/template.xhtml">
+
+    <ui:define name="title">Ar Limpo</ui:define>
+    <ui:define name="content">
+        <h:form id="form" prependId="false">
+            <p:growl id="messages" widgetVar="messages" showDetail="false"
+                     closable="true" showIcon="false"/>
+
+            <div class="ui-g-12">
+                <div class="card card-w-title">
+                    <h1><b>Recurso</b></h1>
+                    <p:panelGrid id="pgNome" columns="3" columnClasses="ui-grid-col-4, ui-grid-col-4, ui-grid-col-4"
+                                 layout="grid" styleClass="ui-panelgrid-blank form-group"
+                                 style="border:0px none; background-color:transparent;">
+
+                        <h:panelGroup styleClass="md-inputfield">
+                            <p:inputText id="itDescricao"
+                                         value="#{visualizarBalneabilidadeBean.resource.description}"
+                                         style="width: 100%;"/>
+                            <p:outputLabel for="itDescricao" value="Recurso"/>
+                        </h:panelGroup>
+                        <h:panelGroup styleClass="md-inputfield">
+                            <p:inputText id="itUUID"
+                                         value="#{visualizarBalneabilidadeBean.resource.uuid}"
+                                         style="width: 100%;"/>
+                            <p:outputLabel for="itUUID" value="UUID"/>
+                        </h:panelGroup>
+
+                        <h:panelGroup styleClass="md-inputfield">
+                            <p:inputText id="itStatus"
+                                         value="#{visualizarBalneabilidadeBean.resource.status}"
+                                         style="width: 100%;"/>
+                            <p:outputLabel for="itStatus" value="Status"/>
+                        </h:panelGroup>
+                    </p:panelGrid>
+                </div>
+                <div class="ui-g-12">
+                    <div class="card card-w-title">
+                        <h1><b>Filtros</b></h1>
+                        <p:panelGrid id="pgFiltro" columns="3" columnClasses="ui-grid-col-4, ui-grid-col-4, ui-grid-col-4"
+                                     layout="grid" styleClass="ui-panelgrid-blank form-group"
+                                     style="border:0px none; background-color:transparent;">
+
+                            <h:panelGrid columns="2" cellpadding="5">
+                                <p:outputLabel for="dateInicio" value="Data Inicial:" />
+                                <p:calendar id="dateInicio" value="#{visualizarBalneabilidadeBean.dataInicio}"
+                                            showOn="button" />
+                            </h:panelGrid>
+                            <h:panelGrid columns="2" cellpadding="5">
+                                <p:outputLabel for="dateFinal" value="Data Final:" />
+                                <p:calendar id="dateFinal" value="#{visualizarBalneabilidadeBean.dataFinal}"
+                                            showOn="button" />
+                            </h:panelGrid>
+
+
+
+                            <p:commandButton
+                                    value="Gerar Histórico"
+                                    process="@this dateInicio dateFinal dtRecursos "
+                                    action="#{visualizarBalneabilidadeBean.getHistorico(resource.uuid)}"
+                                    update="@this dtRecursos"
+                                    style="margin:24px 12px 0 0"/>
+                        </p:panelGrid>
+
+                    </div>
+                </div>
+
+                <div class="ui-g-12">
+                    <div class="card card-w-title">
+                        <h1><b>Recursos</b></h1>
+                        <p:dataTable id="dtRecursos"
+                                     var="recurso"
+                                     value="#{visualizarBalneabilidadeBean.capabilityDataList}"
+                                     reflow="true"
+                                     rowKey="#{recurso.id}"
+                                     paginator="true"
+                                     rows="12"
+                                     emptyMessage="Nenhum registro cadastrado encontrado.">
+                            <p:column headerText="" style="width:250px;text-align: center">
+                                <h:graphicImage library="imagens" name="marker_green.png" rendered="#{visualizarBalneabilidadeBean.isProprio(recurso.value)}"  />
+                                <h:graphicImage library="imagens" name="red_marker.png" rendered="#{visualizarBalneabilidadeBean.isImproprio(recurso.value)}"  />
+                            </p:column>
+                            <p:column headerText="Timestamp" style="width:210px;text-align: center">
+                                <h:outputText value="#{recurso.timestamp}"/>
+                            </p:column>
+                            <p:column headerText="Capacidade" style="text-align: center">
+                                <h:outputText value="#{recurso.value}"/>
+                            </p:column>
+
+
+                        </p:dataTable>
+                    </div>
+                </div>
+            </div>
+
+        </h:form>
+    </ui:define>
+</ui:composition>
