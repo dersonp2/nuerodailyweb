@@ -17,11 +17,8 @@ import java.util.Date;
 public class Pessoa implements Serializable {
 
     private Long id;
-
     private String nome;
-
     private Date nascimento;
-
     private Sexo sexo;
 
 }

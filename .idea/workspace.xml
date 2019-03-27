@@ -6,7 +6,1057 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e1ee7df-e6ff-4915-9d9e-a33e8095eb22" name="Default Changelist" comment="" />
+    <list default="true" id="0ecbaff0-5c93-4d0b-bbe4-44e2e41d4974" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/ufma/lsdi/configuration/mail/MailConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufma/lsdi/configuration/mail/MailConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/ufma/lsdi/controller/beans/neuro/PacienteBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufma/lsdi/controller/beans/neuro/PacienteBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/ufma/lsdi/model/neuro/DocumentoPessoal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufma/lsdi/model/neuro/DocumentoPessoal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/ufma/lsdi/model/neuro/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufma/lsdi/model/neuro/Pessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/ufma/lsdi/model/neuro/helper/PacienteHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufma/lsdi/model/neuro/helper/PacienteHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/ufma/lsdi/util/mail/Mailer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufma/lsdi/util/mail/Mailer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/public/neuro/cadastro-paciente.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/public/neuro/cadastro-paciente.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/.sass-cache/04ec17ce22203d03d62cd35facf8d18dc51a44a7/theme.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/.sass-cache/1399af5f2f488f9a4de587d316b9dab74465880f/theme.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/.sass-cache/1999ee4a4c9e364731e6e3464c536e384dd86a9f/theme.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/.sass-cache/2701e7ef0edc37c953125876d468d4a7dcec87f9/layout-blue-grey.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/.sass-cache/2701e7ef0edc37c953125876d468d4a7dcec87f9/layout-blue.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/.sass-cache/2701e7ef0edc37c953125876d468d4a7dcec87f9/layout-brown.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/.sass-cache/2701e7ef0edc37c953125876d468d4a7dcec87f9/layout-cyan.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/.sass-cache/2701e7ef0edc37c953125876d468d4a7dcec87f9/layout-dark-blue.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/.sass-cache/2701e7ef0edc37c953125876d468d4a7dcec87f9/layout-dark-green.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/.sass-cache/2701e7ef0edc37c953125876d468d4a7dcec87f9/layout-green.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/.sass-cache/2701e7ef0edc37c953125876d468d4a7dcec87f9/layout-grey.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/.sass-cache/2701e7ef0edc37c953125876d468d4a7dcec87f9/layout-indigo.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/.sass-cache/2701e7ef0edc37c953125876d468d4a7dcec87f9/layout-purple-amber.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/.sass-cache/2701e7ef0edc37c953125876d468d4a7dcec87f9/layout-purple-cyan.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/.sass-cache/2701e7ef0edc37c953125876d468d4a7dcec87f9/layout-teal.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/.sass-cache/2e4787f1a558459465a969ab56bf8e652b22d8ae/theme.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/.sass-cache/4f7c4f6b6869c1ff43774166ae5163035dba5aea/theme.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/.sass-cache/7d188a78923fad3f383348785d80a9437d98faf7/theme.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/.sass-cache/7dcc537adafc4fc40ea73962de352128982775e2/theme.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/.sass-cache/9ac0aa8e719a44395fc7c6fd6a5b3a60ba8a331e/_fonts.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/.sass-cache/9ac0aa8e719a44395fc7c6fd6a5b3a60ba8a331e/_mixins.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/.sass-cache/9ac0aa8e719a44395fc7c6fd6a5b3a60ba8a331e/_variables.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/.sass-cache/a793e06e745af979e04edfadcfe37753941b1e7d/theme.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/.sass-cache/b051682e7ea9a7d409c4861429c260b99534df23/theme.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/.sass-cache/c0bfa18367257ae3330b3ccf8fcaa3cacf3aabd8/theme.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/.sass-cache/de4a8c20b799abc526b9f4097c34a06bb6b92890/_compact.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/.sass-cache/de4a8c20b799abc526b9f4097c34a06bb6b92890/_dashboard.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/.sass-cache/de4a8c20b799abc526b9f4097c34a06bb6b92890/_exception.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/.sass-cache/de4a8c20b799abc526b9f4097c34a06bb6b92890/_landing.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/.sass-cache/de4a8c20b799abc526b9f4097c34a06bb6b92890/_layout.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/.sass-cache/de4a8c20b799abc526b9f4097c34a06bb6b92890/_login.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/.sass-cache/de4a8c20b799abc526b9f4097c34a06bb6b92890/_main.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/.sass-cache/de4a8c20b799abc526b9f4097c34a06bb6b92890/_utils.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/.sass-cache/e9f90fe7ae9bc31a4023a46d5ac3ae8e12110754/theme.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/.sass-cache/ec975001e61e367d78b5dfe1505b6e8fe383ab49/_icons.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/.sass-cache/ec975001e61e367d78b5dfe1505b6e8fe383ab49/_theme.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/.sass-cache/f209a65ea7f9f1a53cc843e929f0d011ddbd5010/theme.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/404.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/.faces-config.xml.jsfdia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/application-homol.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/application-production.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/application-teste.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/banner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/ArLimpoWevApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/configuration/JSF/ErrorHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/configuration/JSF/FacesConfigurator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/configuration/JSF/ServletConfigurator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/configuration/JSF/ServletContextConfigurator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/configuration/ServletInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/configuration/cache/CacheConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/configuration/exception/CustomExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/configuration/exception/factory/CustomExceptionHandlerFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/configuration/feign/SeatiConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/configuration/mail/MailConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/configuration/scope/CustomScopeRegisteringBeanFactoryPostProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/configuration/scope/ViewScope.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/configuration/security/EncryptionMethods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/configuration/security/SynchronousEncryption.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/configuration/security/UserLogged.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/configuration/security/UserSystem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/controller/beans/BuscarRecursoBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/controller/beans/CadastrarLaudoBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/controller/beans/CadastrarRecursoBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/controller/beans/DashboardBalneabilidadeBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/controller/beans/DashboardBean$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/controller/beans/DashboardBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/controller/beans/TelaAndersonBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/controller/beans/VisualizarBalneabilidadeBean$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/controller/beans/VisualizarBalneabilidadeBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/controller/beans/VisualizarRecursoBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/controller/beans/neuro/DocumentoPessoalBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/controller/beans/neuro/PacienteBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/controller/beans/neuro/PacienteBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/converter/StringConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/converter/TextEditorConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/exception/BusinessException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/model/Catalog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/model/Concentracao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/model/GetDataContextResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/model/Index.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/model/Matcher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/model/PollutionData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/model/ResourceHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/model/auxiliar/CapabilityAuxiliar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/model/auxiliar/CapabilityDataAuxiliar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/model/auxiliar/Data.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/model/auxiliar/ResourceAuxiliar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/model/auxiliar/ResourceData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/model/auxiliar/ResourceDataAuxiliar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/model/enuns/IndexEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/model/interscity/Capability.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/model/interscity/Resource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/model/neuro/DocumentoPessoal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/model/neuro/Paciente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/model/neuro/Pessoa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/model/neuro/Sexo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/model/neuro/helper/PacienteHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/model/neuro/helper/PacienteHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/service/CRUDService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/service/ResourceColectorService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/service/client/CapabilityClientFallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/service/client/DocumentoPessoalClientFallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/service/client/FeignConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/service/client/FeignInmateConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/service/client/InmateClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/service/client/PacienteClientFallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/service/client/ResourceClientFallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/service/interscity/CapabilityClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/service/interscity/ResourceClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/service/neuro/DocumentoPessoalClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/service/neuro/PacienteClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/util/ConcentracaoMediaUtil$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/util/ConcentracaoMediaUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/util/CsvReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/util/DateUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/util/IndexUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/util/JsonUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/util/PasswordChangeFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/util/Util$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/util/Util.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/util/WebUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/util/mail/MailBody.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/util/mail/MailMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/br/ufma/lsdi/util/mail/Mailer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/imagens/map-marker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/imagens/photo-not-found.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/imagens/saf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/imagens/seap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/mail.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/component/menu/UltimaMenu$PropertyKeys.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/component/menu/UltimaMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/component/menu/UltimaMenuRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/convert/ThemeConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/domain/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/domain/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/domain/Contact.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/domain/Document.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/domain/Mail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/domain/Movie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/domain/NewsEntry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/domain/NewsGroup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/domain/Player.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/domain/Sale.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/domain/Stats.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/domain/Team.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/domain/Theme.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/domain/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/filter/CharacterEncodingFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/service/CarService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/service/DocumentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/service/ThemeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/ChartDemoView$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/ChartDemoView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/GuestPreferences.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/MarkersView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/ThemeView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/TimeLineView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/ajax/BasicView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/ajax/CounterView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/ajax/DropdownView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/ajax/ListenerView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/ajax/RemoteCommandView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/ajax/SearchView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/ajax/SelectorView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/ajax/UserView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/button/ButtonView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/button/ProductDetailView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/chart/ChartView$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/chart/ChartView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/data/CarouselView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/data/DataGridView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/data/DataListView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/data/DataScrollerView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/data/MindmapView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/data/OrderListView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/data/PickListView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/data/RingView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/data/ScheduleView$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/data/ScheduleView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/data/TagCloudView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/data/datatable/BasicView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/data/datatable/ColumnsView$ColumnModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/data/datatable/ColumnsView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/data/datatable/ContextMenuView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/data/datatable/EditView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/data/datatable/FilterView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/data/datatable/GroupView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/data/datatable/LazyCarDataModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/data/datatable/LazySorter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/data/datatable/LazyView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/data/datatable/PaginatorView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/data/datatable/ReorderView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/data/datatable/ResizableColumnsView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/data/datatable/ScrollView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/data/datatable/SelectionView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/data/datatable/SortView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/data/datatable/StickyView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/data/datatable/SubTableView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/data/datatable/SummaryRowView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/data/tree/BasicView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/data/tree/ContextMenuView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/data/tree/DragDropView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/data/tree/EventsView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/data/tree/IconView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/data/tree/SelectionView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/data/treetable/BasicView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/data/treetable/ColumnsView$ColumnModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/data/treetable/ColumnsView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/data/treetable/ContextMenuView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/data/treetable/EventsView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/data/treetable/ScrollableView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/data/treetable/SelectionView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/dnd/ColumnManagerView$ColumnModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/dnd/ColumnManagerView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/dnd/DNDCarsView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/file/FileDownloadView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/file/FileUploadView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/input/AutoCompleteView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/input/CalendarView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/input/CheckboxView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/input/ColorView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/input/EditorView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/input/InplaceView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/input/InputTextareaView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/input/KeyboardView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/input/MaskView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/input/MultiSelectView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/input/PasswordView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/input/RadioView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/input/RatingView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/input/SelectBooleanView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/input/SelectManyView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/input/SelectOneMenuView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/input/SelectOneView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/input/SliderView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/input/SpinnerView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/menu/MegaMenuView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/menu/MenuView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/message/GrowlView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/message/MessagesView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/misc/BlockUIView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/misc/CaptchaView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/misc/CollectorView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/misc/DefaultCommandView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/misc/EffectView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/misc/ExceptionHandlerView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/misc/FocusView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/misc/HotkeyView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/misc/IdleMonitorView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/misc/MockosxView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/misc/ProgressBarView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/misc/RequestContextView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/misc/ResetInputView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/misc/ResizableView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/misc/SpotlightView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/misc/TerminalView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/misc/ThemeSwitcherView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/misc/WatermarkView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/multimedia/CropperView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/multimedia/ImagesView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/multimedia/PhotoCamView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/overlay/DialogView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/overlay/ImageSwitchView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/overlay/MovieView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/overlay/UserLoginView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/panel/AccordionView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/panel/DashboardView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/panel/FieldsetView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/panel/LayoutView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/panel/MailboxView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/panel/PanelView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/panel/TabbedView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/panel/ToolbarView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/org/primefaces/ultima/view/panel/UserWizard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/relatorios/autorizacaoVisitaAssistida.jasper" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/relatorios/autorizacaoVisitaAssistida.jrxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/relatorios/comunicadoOcorrencia.jasper" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/relatorios/comunicadoOcorrencia.jrxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/relatorios/fichaResumoProcessual.jasper" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/relatorios/fichaResumoProcessual.jrxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/relatorios/requerimentoVisitante.jasper" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/relatorios/requerimentoVisitante.jrxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/relatorios/sub_ProcessosTramite.jasper" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/relatorios/sub_ProcessosTramite.jrxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/relatorios/sub_processosDetento.jasper" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/classes/relatorios/sub_processosDetento.jrxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/faces-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/footer.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/footerTemplateSemMenu.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/HdrHistogram-2.1.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/HikariCP-2.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/activation-1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/animal-sniffer-annotation-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/annotations-3.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/antlr-2.7.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/archaius-core-0.7.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/aspectjweaver-1.8.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/bcpkix-jdk15on-1.55.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/bcprov-jdk15on-1.52.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/castor-core-1.3.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/castor-xml-1.3.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/classmate-1.3.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/commons-beanutils-1.9.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/commons-codec-1.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/commons-collections-3.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/commons-configuration-1.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/commons-digester-2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/commons-fileupload-1.3.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/commons-io-2.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/commons-lang-2.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/commons-lang3-3.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/commons-logging-1.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/commons-net-3.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/core-3.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/dom4j-1.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/ecj-4.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/feign-core-9.5.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/feign-form-3.3.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/feign-hystrix-9.5.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/feign-slf4j-9.5.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/gson-2.8.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/guava-18.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/h2-1.4.196.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/hibernate-commons-annotations-5.0.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/hibernate-core-5.0.12.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/hibernate-entitymanager-5.0.12.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/hibernate-validator-5.3.6.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/httpasyncclient-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/httpclient-4.3.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/httpcore-4.4.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/httpcore-nio-4.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/httpmime-4.3.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/hystrix-core-1.5.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/icu4j-57.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/itext-2.1.7.js6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/jackson-annotations-2.8.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/jackson-core-2.8.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/jackson-databind-2.8.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/jakarta-regexp-1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/jandex-2.0.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/jasperreports-6.4.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/jasperreports-fonts-6.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/javassist-3.21.0-GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/javax.inject-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/javax.servlet-api-3.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/javax.transaction-api-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/jaxb-api-2.3.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/jboss-logging-3.3.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/jcip-annotations-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/jcl-over-slf4j-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/jcommon-1.0.23.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/jersey-apache-client4-1.19.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/jersey-client-1.19.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/jersey-core-1.19.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/jfreechart-1.0.19.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/jna-4.5.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/jnbis-2.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/json-20140107.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/jsr305-3.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/jsr311-api-1.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/jul-to-slf4j-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/log4j-over-slf4j-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/logback-classic-1.1.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/logback-core-1.1.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/lombok-1.16.22.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/lucene-analyzers-common-4.5.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/lucene-core-4.5.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/lucene-queries-4.5.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/lucene-queryparser-4.5.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/lucene-sandbox-4.5.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/mail-1.4.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/netflix-commons-util-0.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/netflix-statistics-0.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/netty-buffer-4.0.27.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/netty-codec-4.0.27.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/netty-codec-http-4.0.27.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/netty-common-4.0.27.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/netty-handler-4.0.27.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/netty-transport-4.0.27.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/netty-transport-native-epoll-4.0.27.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/olap4j-0.9.7.309-JS-3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/omnifaces-2.6.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/poi-3.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/postgresql-9.4.1212.jre7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/primefaces-6.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/primefaces-extensions-6.2.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/rewrite-config-prettyfaces-3.4.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/rewrite-integration-faces-3.4.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/rewrite-servlet-3.4.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/ribbon-2.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/ribbon-core-2.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/ribbon-httpclient-2.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/ribbon-loadbalancer-2.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/ribbon-transport-2.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/rxjava-1.1.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/rxnetty-0.4.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/rxnetty-contexts-0.4.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/rxnetty-servo-0.4.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/servo-core-0.10.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/servo-internal-0.10.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/slf4j-api-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/snakeyaml-1.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/spring-aop-4.3.14.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/spring-aspects-4.3.14.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/spring-beans-4.3.14.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/spring-boot-1.5.10.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/spring-boot-actuator-1.5.10.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/spring-boot-autoconfigure-1.5.10.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/spring-boot-starter-1.5.10.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/spring-boot-starter-actuator-1.5.10.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/spring-boot-starter-aop-1.5.10.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/spring-boot-starter-cache-1.5.10.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/spring-boot-starter-data-jpa-1.5.10.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/spring-boot-starter-jdbc-1.5.10.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/spring-boot-starter-logging-1.5.10.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/spring-boot-starter-web-1.5.10.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/spring-cloud-commons-1.2.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/spring-cloud-context-1.2.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/spring-cloud-netflix-core-1.3.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/spring-cloud-starter-1.2.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/spring-cloud-starter-archaius-1.3.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/spring-cloud-starter-feign-1.3.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/spring-cloud-starter-ribbon-1.3.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/spring-context-4.3.14.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/spring-context-support-4.3.14.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/spring-core-4.3.14.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/spring-data-commons-1.13.10.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/spring-data-jpa-1.11.10.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/spring-expression-4.3.14.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/spring-jdbc-4.3.14.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/spring-orm-4.3.14.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/spring-security-crypto-4.2.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/spring-security-rsa-1.0.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/spring-tx-4.3.14.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/spring-web-4.3.14.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/spring-webmvc-4.3.14.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/stax-1.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/stax-api-1.0-2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/stax-api-1.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/unirest-java-1.4.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/lib/validation-api-1.1.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/menu.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/pretty-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/primefaces-ultima.taglib.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/template.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/template/assistencia/addMedicamentoModal.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/template/assistencia/atendimentosPendentesTable.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/template/assistencia/enderecoModal.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/template/assistencia/psicologia/tabAspectos.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/template/assistencia/psicologia/tabAspectosFamiliares.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/template/assistencia/psicologia/tabConscienciaDelitoEncarceramento.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/template/assistencia/psicologia/tabDadosPessoais.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/template/assistencia/psicologia/tabDependenciaQuimica.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/template/assistencia/psicologia/tabSaudeMental.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/template/assistencia/social/acolhimento/tabDadosPessoais.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/template/assistencia/social/enderecoModal.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/template/escolta/addEscoltaModal.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/template/escolta/encaminhaEscoltaModal.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/template/escolta/visualizaEscoltaModal.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/template/transferencia/detalhar-solicitacao-transferencia.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/templateSemMenu.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/WEB-INF/topbar.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/access.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/dashboard.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/error.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/administracao/solicitacaoVisita/gerenciar-solicitacao-visita-administracao.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/administracao/solicitacaoVisita/visualizar-solicitacao-visita-administracao.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/acolhida/buscar-acolhida-detento.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/acolhida/efetivar-acolhida-detento.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/acolhida/visualizar-acolhida-detento.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/acolhimentoEnfermagem/buscar-acolhimento-enfermagem.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/acolhimentoEnfermagem/efetivar-acolhimento-enfermagem.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/acolhimentoEnfermagem/modals/modal-acolhimentoMedicamentoPatologia.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/acolhimentoEnfermagem/modals/modal-pessoa-acolhimentoEnfermagem.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/acolhimentoEnfermagem/visualizar-acolhimento-enfermagem.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/acolhimentoPsicologico/buscar-acolhimento-psicologico.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/acolhimentoPsicologico/efetivar-acolhimento-psicologico.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/acolhimentoPsicologico/modals/modal-deficiencia-acolhimentoPsicologico.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/acolhimentoPsicologico/visualizar-acolhimento-psicologico.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/acolhimentoSocial/buscar-acolhimento-social.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/acolhimentoSocial/efetivar-acolhimento-social.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/acolhimentoSocial/modals/modal-pessoa-acolhimentoSocial.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/acolhimentoSocial/modals/modal-pessoa-composicaoFamiliar.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/acolhimentoSocial/modals/modal-rg-acolhimentoSocial.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/acolhimentoSocial/visualizar-acolhimento-social.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/atendimentoEnfermagem/buscar-atendimento-enfermagem.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/atendimentoEnfermagem/efetivar-atendimento-enfermagem.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/atendimentoEnfermagem/modals/modal-medicamentoPatologia.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/atendimentoEnfermagem/modals/modal-pessoa-atendimentoEnfermagem.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/atendimentoEnfermagem/visualizar-atendimento-enfermagem.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/atendimentoPedagogico/buscar-atendimento-pedagogico.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/atendimentoPedagogico/efetivar-atendimento-pedagogico.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/atendimentoPedagogico/modals/modal-curso-atendimentoPedagogico.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/atendimentoPedagogico/visualizar-atendimento-pedagogico.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/atendimentoPsicologico/buscar-atendimento-psicologico.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/atendimentoPsicologico/efetivar-atendimento-psicologico.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/atendimentoPsicologico/visualizar-atendimento-psicologico.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/atendimentoSocial/buscar-atendimento-social.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/atendimentoSocial/efetivar-atendimento-social.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/atendimentoSocial/modals/modal-pessoa-atendimentoSocial.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/atendimentoSocial/modals/modal-pessoa-compFamiliar-atendimentoSocial.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/atendimentoSocial/modals/modal-pessoa-filhoEnteado-atendimentoSocial.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/atendimentoSocial/modals/modal-pessoa-parenteResponsavel-atendimentoSocial.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/atendimentoSocial/visualizar-atendimento-social.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/atendimentoTerapiaOcupacional/buscar-atendimento-terapiaOcupacional.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/atendimentoTerapiaOcupacional/efetivar-atendimento-terapiaOcupacional.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/atendimentoTerapiaOcupacional/modals/modal-profissao-atendimento-terapiaOcupacional.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/atendimentoTerapiaOcupacional/modals/modal-unidadePrisional-atendimento-terapiaOcupacional.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/atendimentoTerapiaOcupacional/visualizar-atendimento-terapiaOcupacional.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/gerenciamentoProcesso/buscar-gerenciamento-processo.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/gerenciamentoProcesso/cadastrar-processo-execucao.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/gerenciamentoProcesso/cadastrar-processo.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/gerenciamentoProcesso/fragments/dados-detento.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/gerenciamentoProcesso/fragments/guia-form.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/gerenciamentoProcesso/fragments/inquerito-panelgrid.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/gerenciamentoProcesso/fragments/lei-artigo-datatable.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/gerenciamentoProcesso/fragments/processo-artigo-datatable.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/gerenciamentoProcesso/fragments/processo-artigo-panelgrid.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/gerenciamentoProcesso/fragments/processo-originario.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/gerenciamentoProcesso/fragments/valida-processo-artigo-datatable.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/gerenciamentoProcesso/modals/modal-incidenciaPenal-processo.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/gerenciamentoProcesso/modals/modal-pessoa-processo.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/gerenciamentoProcesso/validar-guia-recolhimento.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/movimentacao/buscar-movimentacao-detento.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/movimentacao/movimentar-detento-cela.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/movimentacao/movimentar-detento.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/pip/buscar-pip.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/pip/cadastrar-pip.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/seguranca/acolhimentoSeguranca/buscar-acolhimento-seguranca.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/seguranca/acolhimentoSeguranca/efetivar-acolhimento-seguranca.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/seguranca/acolhimentoSeguranca/modals/modal-incidenciaPenal-atendimento.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/seguranca/acolhimentoSeguranca/visualizar-acolhimento-seguranca.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/seguranca/atendimentoSeguranca/buscar-atendimento-seguranca.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/seguranca/atendimentoSeguranca/efetivar-atendimento-seguranca.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/seguranca/atendimentoSeguranca/modals/modal-incidenciaPenal-atendimento.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/seguranca/atendimentoSeguranca/visualizar-atendimento-seguranca.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/seguranca/buscar-solicitacao-seguranca.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/seguranca/visualizar-solicitacao-seguranca.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/solicitacaoAtendimento/cadastrar-solicitacao-atendimento.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/assistencia/solicitacaoAtendimento/visualizar-solicitacao-atendimento.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/cela/buscar-cela.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/cela/cadastrar-cela.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/cela/visualizar-cela.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/coletaDna/cadastro-coleta-dna.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/coletaDna/cadastro-incidencia-coleta-dna.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/coletaDna/consulta-coleta-dna.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/comarca/buscar-comarca.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/comarca/cadastrar-comarca.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/comarca/visualizar-comarca.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/dashboard/dashboard.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/dashboard/links-dashboard.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/delegacia/buscar-delegacia.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/delegacia/cadastrar-delegacia.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/detento/buscar-detento.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/detento/cadastrar-detento-foto-biometria.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/detento/cadastrar-detento.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/detento/detentoForms/dados-fisicos.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/detento/detentoForms/dados-pessoais.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/detento/detentoForms/dados-prisionais.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/detento/detentoForms/modals/modal-foto-cam-dado-fisico.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/detento/detentoForms/modals/modal-foto-cam.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/detento/detentoForms/modals/modal-foto-dado-fisico.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/detento/detentoForms/modals/modal-foto.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/detento/detentoForms/modals/modal-incidenciaPenal-processo.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/detento/detentoForms/modals/modal-pessoa.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/detento/detentoForms/modals/modal-rg.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/detento/detentoForms/modals/modal-tatuagem.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/detento/fragments/dados-fisicos-panelgrid.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/detento/fragments/dados-pessoais-panelgrid.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/detento/fragments/dados-prisionais-panelgrid.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/detento/fragments/detento-dados-prisionais.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/detento/fragments/modal/modal-edicao-arquivos.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/detento/fragments/modal/modal-edicao-dados-pessoais.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/detento/fragments/modal/modal-edicao-endereco.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/detento/fragments/modal/modal-edicao-nome.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/detento/fragments/modal/modal-edicao-rg.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/detento/fragments/natureza-custodia-step.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/detento/fragments/tab-dados-fisicos.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/detento/fragments/tab-dados-pessoais.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/detento/fragments/tab-detento.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/detento/fragments/tab-fotos-tatuagem.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/detento/fragments/tab-historico-visita.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/detento/fragments/tab-historico.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/detento/fragments/tab-prontuario.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/detento/fragments/tab-visitantes.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/detento/fragments/visitanteDetentoView-dados-basicos-panelgroup.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/detento/identificacao-digital-pessoa.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/detento/identificacao-pessoa.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/detento/movimentacao/diversa-retorno.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/detento/movimentacao/diversa-saida.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/detento/movimentacao/falecimento.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/detento/movimentacao/fuga-saida.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/detento/movimentacao/movimentacao-medica-retorno.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/detento/movimentacao/movimentacao-medica-saida.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/detento/movimentacao/prisao-flagrante.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/detento/movimentacao/solicitacaoTransferencia/acompanhamento-escolta-transferencia.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/detento/movimentacao/solicitacaoTransferencia/acompanhamento-solicitacao-transferencia.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/detento/movimentacao/solicitacaoTransferencia/detalhar-solicitacao-transferencia.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/detento/movimentacao/solicitacaoTransferencia/detalhe-escolta-transferencia.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/detento/movimentacao/solicitacaoTransferencia/solicitacao-transferencia-administrativa.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/detento/movimentacao/solicitacaoTransferencia/visualizar-solicitacao-transferencia.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/detento/movimentacao/temporaria-retorno.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/detento/movimentacao/temporaria-saida.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/detento/movimentacao/trabalho-externo-retorno.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/detento/movimentacao/trabalho-externo-saida.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/detento/movimentacao/transferencia-admissao.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/detento/movimentacao/transferencia-saida.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/detento/visualizar-detento.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/faccao/buscar-faccao.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/faccao/cadastrar-faccao.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/faccao/visualizar-faccao.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/frenteTrabalho/buscar-frente-trabalho.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/frenteTrabalho/cadastrar-frente-trabalho.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/frenteTrabalho/gerenciar-frente-trabalho.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/frenteTrabalho/visualizar-frente-trabalho.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/ocorrencia/acompanha-ocorrencia.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/ocorrencia/cadastro-ocorrencia.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/ocorrencia/fragments/dados-ocorrencia-panelgrid.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/ocorrencia/fragments/envolvidos-ocorrencia-panelgrid.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/ocorrencia/fragments/galeria-ocorrencia-panelgrid.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/ocorrencia/fragments/pareceres-ocorrencia-panelgrid.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/ocorrencia/fragments/situacao-ocorrencia-step.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/ocorrencia/visualiza-ocorrencia-diretor-geral.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/ocorrencia/visualiza-ocorrencia.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/ocorrencia/visualiza-video.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/padroes/tela.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/pavilhao/buscar-pavilhao.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/pavilhao/cadastrar-pavilhao.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/pavilhao/visualizar-pavilhao.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/relatorio/detento/detento-listagem-geral.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/saspe/fragments/tablePreso.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/saspe/sgv/solicitacaoTransferencia/buscar-solicitacao-transferencia-supervisao.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/saspe/sgv/solicitacaoTransferencia/detalhar-solicitacao-transferencia-supervisao.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/saspe/sgv/solicitacaoTransferencia/solicitacao-transferencia-judicial.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/saspe/sgv/solicitacaoTransferencia/visualizar-solicitacao-transferencia-supervisao.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/saspe/sse/buscar-solicitacao.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/saspe/sse/detalhar-solicitacao.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/saspe/sse/visualizar-solicitacao.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/sme/buscar-gerenciamento-sme.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/unidadePrisional/buscar-unidade-prisional.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/unidadePrisional/cadastrar-unidade-prisional.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/unidadePrisional/visualizar-unidade-prisional.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/user/alterar-senha.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/visitante/acompanhamento-solicitacao-visita-assistida-up.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/visitante/acompanhamento-solicitacao-visita-assistida.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/visitante/buscar-visitante.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/visitante/cadastrar-visitante.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/visitante/detalhes-visitante.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/visitante/entrada-visitante.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/visitante/fragments/comprovante-visita.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/visitante/fragments/dados-entrada-panel.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/visitante/fragments/dados-solicitacao-visita-assistida-panelgrid.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/visitante/fragments/dados-solicitacao-visita-panelgrid.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/visitante/fragments/detentoView-panel.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/visitante/fragments/detentoView-panelgrid.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/visitante/fragments/historico-situacao-solicitacao-step.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/visitante/fragments/historico-situacao-visitante-step.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/visitante/fragments/identificacao-panel.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/visitante/fragments/visitanteDetentoView-datalist.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/visitante/fragments/visitanteView-panel.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/visitante/fragments/visitanteView-panelgrid.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/visitante/fragments/visualiza-visita-assistida-datalist.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/visitante/gerenciar-solicitacao-visita.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/visitante/gerenciar-vinculo.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/visitante/imprime-carteira-visitante.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/visitante/imprime-comprovante-visita.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/visitante/modals/modal-foto-cam-visitante.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/visitante/modals/modal-foto-visitante.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/visitante/modals/modal-pessoa.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/visitante/modals/modal-rg.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/visitante/saida-visitante.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/visitante/solicita-visita-assistida.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/visitante/vincular-visitante.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/visitante/visualiza-solicitacao-visita-assistida-up.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/visitante/visualiza-solicitacao-visita-assistida.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/private/visitante/visualizar-solicitacao-visita.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/public/dashboard/dashboard-balneabilidade.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/public/dashboard/dashboard.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/public/login/login.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/public/login/recuperar-senha.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/public/neuro/pacientes.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/public/recurso/buscar-recurso.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/public/recurso/cadastrar-laudo.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/public/recurso/cadastrar-recurso.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/public/recurso/visualizar-balneabilidade.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/public/recurso/visualizar-recurso.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/pages/public/tela-anderson.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/biometric/biometria.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/biometric/biometric.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/biometric/biometric.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/biometric/digital.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/custom/custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/imagens/CarteiraVisiitante.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/imagens/ajax-loader1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/imagens/favicon-96x96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/imagens/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/imagens/icone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/imagens/markerGood.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/imagens/marker_green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/imagens/ms-icon-150x150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/imagens/ms-icon-310x310.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/imagens/pdf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/imagens/photo-not-found.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/imagens/red_marker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/imagens/seap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/imagens/video.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/primefaces-ultima-indigo/theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/primefaces-ultima-indigo/theme.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/css/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/css/custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/css/custom_table.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/css/grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/css/layout-blue-grey.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/css/layout-blue-grey.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/css/layout-blue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/css/layout-blue.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/css/layout-brown.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/css/layout-brown.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/css/layout-cyan.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/css/layout-cyan.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/css/layout-dark-blue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/css/layout-dark-blue.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/css/layout-dark-green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/css/layout-dark-green.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/css/layout-green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/css/layout-green.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/css/layout-grey.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/css/layout-grey.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/css/layout-indigo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/css/layout-indigo.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/css/layout-purple-amber.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/css/layout-purple-amber.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/css/layout-purple-cyan.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/css/layout-purple-cyan.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/css/layout-teal.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/css/layout-teal.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/css/nanoscroller.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/css/ripple.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/fonts/MaterialIcons-Regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/fonts/MaterialIcons-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/fonts/MaterialIcons-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/fonts/MaterialIcons-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/fonts/roboto-v15-latin-300.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/fonts/roboto-v15-latin-300.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/fonts/roboto-v15-latin-300.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/fonts/roboto-v15-latin-300.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/fonts/roboto-v15-latin-300.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/fonts/roboto-v15-latin-700.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/fonts/roboto-v15-latin-700.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/fonts/roboto-v15-latin-700.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/fonts/roboto-v15-latin-700.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/fonts/roboto-v15-latin-700.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/fonts/roboto-v15-latin-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/fonts/roboto-v15-latin-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/fonts/roboto-v15-latin-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/fonts/roboto-v15-latin-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/fonts/roboto-v15-latin-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/images/401.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/images/404.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/images/avatar2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/images/dark-user-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/images/dark-user-bg2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/images/dashboard/map.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/images/dashboard/md.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/images/dashboard/progress.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/images/dashboard/sales.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/images/dashboard/sidebar-image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/images/dashboard/views.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/images/error.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/images/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/images/image2vector.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/images/landing/landing-header.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/images/landing/promotion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/images/login/login.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/images/login/login2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/images/logo-seap1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/images/logo-ultima.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/images/logo2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/images/preloader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/images/profile-bg-dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/images/profile-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/images/profile-bg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/images/user-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/images/user-bg2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/js/layout.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/js/layout_old.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/js/locale-primefaces.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/js/nanoscroller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/js/ripple.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/resources/ultima-layout/js/swipe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ARLIMPOWEB/viewExpired.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-homol.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-production.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-teste.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/banner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/ArLimpoWevApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/configuration/JSF/ErrorHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/configuration/JSF/FacesConfigurator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/configuration/JSF/ServletConfigurator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/configuration/JSF/ServletContextConfigurator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/configuration/ServletInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/configuration/cache/CacheConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/configuration/exception/CustomExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/configuration/exception/factory/CustomExceptionHandlerFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/configuration/feign/SeatiConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/configuration/mail/MailConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/configuration/scope/CustomScopeRegisteringBeanFactoryPostProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/configuration/scope/ViewScope.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/configuration/security/EncryptionMethods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/configuration/security/SynchronousEncryption.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/configuration/security/UserLogged.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/configuration/security/UserSystem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/controller/beans/BuscarRecursoBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/controller/beans/CadastrarLaudoBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/controller/beans/CadastrarRecursoBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/controller/beans/DashboardBalneabilidadeBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/controller/beans/DashboardBean$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/controller/beans/DashboardBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/controller/beans/TelaAndersonBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/controller/beans/VisualizarBalneabilidadeBean$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/controller/beans/VisualizarBalneabilidadeBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/controller/beans/VisualizarRecursoBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/controller/beans/neuro/DocumentoPessoalBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/controller/beans/neuro/PacienteBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/controller/beans/neuro/PacienteBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/converter/StringConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/converter/TextEditorConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/exception/BusinessException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/model/Catalog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/model/Concentracao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/model/GetDataContextResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/model/Index.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/model/Matcher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/model/PollutionData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/model/ResourceHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/model/auxiliar/CapabilityAuxiliar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/model/auxiliar/CapabilityDataAuxiliar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/model/auxiliar/Data.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/model/auxiliar/ResourceAuxiliar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/model/auxiliar/ResourceData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/model/auxiliar/ResourceDataAuxiliar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/model/enuns/IndexEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/model/interscity/Capability.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/model/interscity/Resource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/model/neuro/DocumentoPessoal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/model/neuro/Paciente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/model/neuro/Pessoa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/model/neuro/Sexo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/model/neuro/helper/PacienteHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/model/neuro/helper/PacienteHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/service/CRUDService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/service/ResourceColectorService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/service/client/CapabilityClientFallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/service/client/DocumentoPessoalClientFallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/service/client/FeignConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/service/client/FeignInmateConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/service/client/InmateClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/service/client/PacienteClientFallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/service/client/ResourceClientFallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/service/interscity/CapabilityClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/service/interscity/ResourceClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/service/neuro/DocumentoPessoalClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/service/neuro/PacienteClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/util/ConcentracaoMediaUtil$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/util/ConcentracaoMediaUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/util/CsvReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/util/DateUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/util/IndexUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/util/JsonUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/util/PasswordChangeFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/util/Util$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/util/Util.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/util/WebUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/util/mail/MailBody.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/util/mail/MailMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/ufma/lsdi/util/mail/Mailer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/imagens/map-marker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/imagens/photo-not-found.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/imagens/saf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/imagens/seap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mail.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/component/menu/UltimaMenu$PropertyKeys.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/component/menu/UltimaMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/component/menu/UltimaMenuRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/convert/ThemeConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/domain/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/domain/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/domain/Contact.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/domain/Document.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/domain/Mail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/domain/Movie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/domain/NewsEntry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/domain/NewsGroup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/domain/Player.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/domain/Sale.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/domain/Stats.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/domain/Team.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/domain/Theme.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/domain/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/filter/CharacterEncodingFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/service/CarService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/service/DocumentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/service/ThemeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/ChartDemoView$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/ChartDemoView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/GuestPreferences.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/MarkersView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/ThemeView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/TimeLineView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/ajax/BasicView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/ajax/CounterView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/ajax/DropdownView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/ajax/ListenerView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/ajax/RemoteCommandView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/ajax/SearchView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/ajax/SelectorView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/ajax/UserView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/button/ButtonView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/button/ProductDetailView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/chart/ChartView$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/chart/ChartView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/data/CarouselView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/data/DataGridView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/data/DataListView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/data/DataScrollerView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/data/MindmapView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/data/OrderListView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/data/PickListView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/data/RingView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/data/ScheduleView$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/data/ScheduleView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/data/TagCloudView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/data/datatable/BasicView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/data/datatable/ColumnsView$ColumnModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/data/datatable/ColumnsView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/data/datatable/ContextMenuView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/data/datatable/EditView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/data/datatable/FilterView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/data/datatable/GroupView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/data/datatable/LazyCarDataModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/data/datatable/LazySorter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/data/datatable/LazyView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/data/datatable/PaginatorView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/data/datatable/ReorderView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/data/datatable/ResizableColumnsView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/data/datatable/ScrollView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/data/datatable/SelectionView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/data/datatable/SortView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/data/datatable/StickyView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/data/datatable/SubTableView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/data/datatable/SummaryRowView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/data/tree/BasicView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/data/tree/ContextMenuView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/data/tree/DragDropView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/data/tree/EventsView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/data/tree/IconView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/data/tree/SelectionView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/data/treetable/BasicView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/data/treetable/ColumnsView$ColumnModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/data/treetable/ColumnsView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/data/treetable/ContextMenuView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/data/treetable/EventsView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/data/treetable/ScrollableView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/data/treetable/SelectionView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/dnd/ColumnManagerView$ColumnModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/dnd/ColumnManagerView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/dnd/DNDCarsView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/file/FileDownloadView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/file/FileUploadView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/input/AutoCompleteView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/input/CalendarView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/input/CheckboxView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/input/ColorView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/input/EditorView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/input/InplaceView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/input/InputTextareaView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/input/KeyboardView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/input/MaskView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/input/MultiSelectView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/input/PasswordView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/input/RadioView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/input/RatingView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/input/SelectBooleanView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/input/SelectManyView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/input/SelectOneMenuView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/input/SelectOneView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/input/SliderView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/input/SpinnerView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/menu/MegaMenuView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/menu/MenuView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/message/GrowlView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/message/MessagesView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/misc/BlockUIView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/misc/CaptchaView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/misc/CollectorView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/misc/DefaultCommandView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/misc/EffectView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/misc/ExceptionHandlerView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/misc/FocusView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/misc/HotkeyView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/misc/IdleMonitorView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/misc/MockosxView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/misc/ProgressBarView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/misc/RequestContextView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/misc/ResetInputView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/misc/ResizableView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/misc/SpotlightView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/misc/TerminalView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/misc/ThemeSwitcherView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/misc/WatermarkView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/multimedia/CropperView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/multimedia/ImagesView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/multimedia/PhotoCamView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/overlay/DialogView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/overlay/ImageSwitchView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/overlay/MovieView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/overlay/UserLoginView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/panel/AccordionView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/panel/DashboardView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/panel/FieldsetView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/panel/LayoutView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/panel/MailboxView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/panel/PanelView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/panel/TabbedView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/panel/ToolbarView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/primefaces/ultima/view/panel/UserWizard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/relatorios/autorizacaoVisitaAssistida.jasper" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/relatorios/autorizacaoVisitaAssistida.jrxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/relatorios/comunicadoOcorrencia.jasper" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/relatorios/comunicadoOcorrencia.jrxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/relatorios/fichaResumoProcessual.jasper" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/relatorios/fichaResumoProcessual.jrxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/relatorios/requerimentoVisitante.jasper" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/relatorios/requerimentoVisitante.jrxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/relatorios/sub_ProcessosTramite.jasper" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/relatorios/sub_ProcessosTramite.jrxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/relatorios/sub_processosDetento.jasper" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/relatorios/sub_processosDetento.jrxml" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,80 +1064,49 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/ARLIMPOWEB$Unnamed.ic" NAME="Unnamed Coverage Results" MODIFIED="1553604556116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1646075882">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="class" value="2" />
-          <entry key="css" value="16" />
-          <entry key="gif" value="5" />
-          <entry key="ico" value="4" />
-          <entry key="java" value="23" />
-          <entry key="jpg" value="2" />
-          <entry key="js" value="1" />
-          <entry key="png" value="102" />
-          <entry key="properties" value="4" />
-          <entry key="scss" value="7" />
-          <entry key="svg" value="25" />
-          <entry key="xhtml" value="33" />
-          <entry key="xml" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="2" />
-          <entry key="CSS" value="16" />
-          <entry key="Image" value="113" />
-          <entry key="JAVA" value="23" />
-          <entry key="JavaScript" value="1" />
-          <entry key="Properties" value="4" />
-          <entry key="SCSS" value="7" />
-          <entry key="SVG" value="25" />
-          <entry key="XHTML" value="33" />
-          <entry key="XML" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="css" value="11" />
-          <entry key="java" value="541" />
-          <entry key="properties" value="3" />
-          <entry key="xhtml" value="1263" />
-          <entry key="xml" value="125" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="CSS" value="11" />
-          <entry key="JAVA" value="541" />
-          <entry key="Properties" value="3" />
-          <entry key="XHTML" value="1263" />
-          <entry key="XML" value="125" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/ufma/lsdi/service/neuro/DocumentoPessoalClient.java">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/ufma/lsdi/controller/beans/neuro/PacienteBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="159">
+              <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/ufma/lsdi/configuration/mail/MailConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/ufma/lsdi/configuration/JSF/ServletContextConfigurator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/ufma/lsdi/util/mail/Mailer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/ufma/lsdi/model/neuro/Pessoa.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -95,150 +1114,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/public/neuro/cadastro-paciente.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="163" column="94" selection-start-line="163" selection-start-column="94" selection-end-line="163" selection-end-column="94" />
-              <folding>
-                <element signature="n#p:tab#0;n#p:tabView#0;n#div#0;n#div#0;n#h:form#0;n#ui:define#1;n#ui:composition#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/ufma/lsdi/service/client/DocumentoPessoalClientFallback.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="20" />
-              <folding>
-                <element signature="e#588#589#0" expanded="true" />
-                <element signature="e#615#616#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/public/recurso/cadastrar-recurso.xhtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="64" column="103" lean-forward="true" selection-start-line="64" selection-start-column="49" selection-end-line="64" selection-end-column="103" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/ufma/lsdi/controller/beans/neuro/DocumentoPessoalBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#662#663#0" expanded="true" />
-                <element signature="e#719#720#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/ufma/lsdi/model/neuro/Sexo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/ufma/lsdi/controller/beans/CadastrarRecursoBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="55" selection-start-line="55" selection-end-line="62" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#979#980#0" expanded="true" />
-                <element signature="e#1031#1032#0" expanded="true" />
-                <element signature="e#1076#1077#0" expanded="true" />
-                <element signature="e#1105#1106#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/ufma/lsdi/service/interscity/CapabilityClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+            <state relative-caret-position="298">
+              <caret line="24" column="100" selection-start-line="24" selection-start-column="100" selection-end-line="24" selection-end-column="100" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>JAVAX</find>
-      <find>JAXB</find>
-      <find>graphicImage</find>
-      <find>topbar-left</find>
-      <find>283</find>
-      <find>3F51B5</find>
-      <find>#3F51B5</find>
-      <find>283593</find>
-      <find>ar</find>
-      <find>ar li</find>
-      <find>ar l</find>
+      <find>mail.properties</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/application-production.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/application-homol.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/br/ufma/lsdi/configuration/persistence/PrimaryDataSource.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/ultima-layout/css/layout-blue.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/ultima-layout/css/layout-indigo.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/ultima-layout/css/layout-indigo.scss" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/primefaces-ultima-indigo/theme.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/primefaces-ultima-indigo/theme.scss" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/template.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/pages/public/recurso/buscar-recurso.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templateSemMenu.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/footerTemplateSemMenu.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/footer.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/menu.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/pages/public/neuro/pacientes.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pretty-config.xml" />
         <option value="$PROJECT_DIR$/src/main/java/br/ufma/lsdi/model/neuro/DocumentoPessoal.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/ufma/lsdi/model/neuro/Pessoa.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/ufma/lsdi/model/neuro/Sexo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/ufma/lsdi/service/neuro/DocumentoPessoalClient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/ufma/lsdi/controller/beans/neuro/DocumentoPessoalBean.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/pages/public/recurso/cadastrar-recurso.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/java/br/ufma/lsdi/model/neuro/helper/PacienteHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/ufma/lsdi/configuration/mail/MailConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/ufma/lsdi/util/mail/Mailer.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/public/neuro/cadastro-paciente.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/java/br/ufma/lsdi/service/client/DocumentoPessoalClientFallback.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/ufma/lsdi/controller/beans/neuro/PacienteBean.java" />
       </list>
     </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -251,7 +1155,7 @@
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
-    <option name="height" value="784" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -259,35 +1163,39 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="ARLIMPOWEB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arlimpoweb-master" type="462c0819:PsiDirectoryNode" />
+              <item name="nuerodailyweb" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ARLIMPOWEB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arlimpoweb-master" type="462c0819:PsiDirectoryNode" />
+              <item name="nuerodailyweb" type="462c0819:PsiDirectoryNode" />
+              <item name="dataset" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ARLIMPOWEB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nuerodailyweb" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ARLIMPOWEB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arlimpoweb-master" type="462c0819:PsiDirectoryNode" />
+              <item name="nuerodailyweb" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ARLIMPOWEB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arlimpoweb-master" type="462c0819:PsiDirectoryNode" />
+              <item name="nuerodailyweb" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ARLIMPOWEB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arlimpoweb-master" type="462c0819:PsiDirectoryNode" />
+              <item name="nuerodailyweb" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -295,7 +1203,7 @@
             </path>
             <path>
               <item name="ARLIMPOWEB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arlimpoweb-master" type="462c0819:PsiDirectoryNode" />
+              <item name="nuerodailyweb" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -304,7 +1212,7 @@
             </path>
             <path>
               <item name="ARLIMPOWEB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arlimpoweb-master" type="462c0819:PsiDirectoryNode" />
+              <item name="nuerodailyweb" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -314,14 +1222,21 @@
             </path>
             <path>
               <item name="ARLIMPOWEB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arlimpoweb-master" type="462c0819:PsiDirectoryNode" />
+              <item name="nuerodailyweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ARLIMPOWEB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nuerodailyweb" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ARLIMPOWEB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arlimpoweb-master" type="462c0819:PsiDirectoryNode" />
+              <item name="nuerodailyweb" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
@@ -329,7 +1244,7 @@
             </path>
             <path>
               <item name="ARLIMPOWEB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arlimpoweb-master" type="462c0819:PsiDirectoryNode" />
+              <item name="nuerodailyweb" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
@@ -338,7 +1253,7 @@
             </path>
             <path>
               <item name="ARLIMPOWEB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arlimpoweb-master" type="462c0819:PsiDirectoryNode" />
+              <item name="nuerodailyweb" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
@@ -348,43 +1263,26 @@
             </path>
             <path>
               <item name="ARLIMPOWEB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arlimpoweb-master" type="462c0819:PsiDirectoryNode" />
+              <item name="nuerodailyweb" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="recurso" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="topbar-left&#9;null&#9;null&#10;graphicImage&#9;PSI&#9;JAVA://org.omnifaces.component.output.GraphicImage&#10;logo&#9;FILE&#9;file://C:/www/neurodailyWeb/arlimpoweb-master/src/main/webapp/resources/ultima-layout/images/logo-seap.svg" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553690643071" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553730849592" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.15527344" />
-    <property name="project.structure.side.proportion" value="0.2" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="br.ufma.lsdi.service.client" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\www\neurodailyWeb\arlimpoweb-master\src\main\java\br\ufma\lsdi\model\neuro" />
-      <recent name="C:\www\neurodailyWeb\arlimpoweb-master\src\main\webapp\pages\public\neuro" />
-      <recent name="C:\www\neurodailyWeb\arlimpoweb-master\src\main\webapp\resources\ultima-layout\images" />
-      <recent name="C:\www\neurodailyWeb\arlimpoweb-master\src\main\webapp\resources\ultima-layout" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -398,9 +1296,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JBoss Server.server">
-    <configuration name="server" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 11.0.0.Final" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+  <component name="RunManager" selected="JBoss Server.Wildfly">
+    <configuration name="Wildfly" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 11.0.0.Final" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/ARLIMPOWEB/" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
@@ -416,9 +1314,9 @@
         <option name="USERNAME" value="" />
         <option name="PASSWORD" value="" />
       </server-settings>
-      <predefined_log_file id="JBoss" enabled="true" />
+      <predefined_log_file enabled="true" id="JBoss" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="50454" />
+        <option name="DEBUG_PORT" value="49967" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -480,7 +1378,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JBoss Server.server" />
+      <item itemvalue="JBoss Server.Wildfly" />
       <item itemvalue="Spring Boot.ArLimpoWevApplication" />
     </list>
   </component>
@@ -489,447 +1387,142 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6e1ee7df-e6ff-4915-9d9e-a33e8095eb22" name="Default Changelist" comment="" />
-      <created>1553604205966</created>
+      <changelist id="0ecbaff0-5c93-4d0b-bbe4-44e2e41d4974" name="Default Changelist" comment="" />
+      <created>1553728436725</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1553604205966</updated>
-      <workItem from="1553604212313" duration="18337000" />
-      <workItem from="1553628332149" duration="10806000" />
+      <updated>1553728436725</updated>
+      <workItem from="1553728438101" duration="2330000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29143000" />
+    <option name="totallyTimeSpent" value="2330000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" order="0" />
-      <window_info id="UI Designer" order="1" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info id="Web" order="4" side_tool="true" />
-      <window_info id="Designer" order="5" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.24962178" />
-      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Spring" order="0" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.70353305" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="3" weight="0.32872504" />
-      <window_info anchor="bottom" id="Java Enterprise" order="4" weight="0.32872504" />
-      <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="6" />
-      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32872504" />
-      <window_info anchor="bottom" id="Message" order="8" />
-      <window_info anchor="bottom" id="Find" order="9" />
-      <window_info anchor="bottom" id="Run" order="10" weight="0.88325655" />
-      <window_info anchor="bottom" id="Debug" order="11" weight="0.7941628" />
-      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="14" />
-      <window_info anchor="right" id="JSF" order="0" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Maven Projects" order="2" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Coverage" order="6" side_tool="true" weight="0.32980332" />
-      <window_info anchor="right" id="Bean Validation" order="7" />
-      <window_info anchor="right" id="Palette" order="8" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="9" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="10" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="11" weight="0.25" />
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Web" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Application Servers" weight="0.3289689" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.3289689" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.95090014" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="JSF" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/ultima-layout/css/layout-indigo.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="859" column="27" selection-start-line="859" selection-start-column="27" selection-end-line="859" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/ultima-layout/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4152" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/ultima-layout/css/layout-indigo.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="26" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/primefaces-ultima-indigo/theme.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="4966" column="29" selection-start-line="4966" selection-start-column="29" selection-end-line="4966" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/primefaces-ultima-indigo/theme.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/ultima-layout/images/avatar2x.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/ultima-layout/images/dark-user-bg2x.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/ultima-layout/images/dark-user-bg.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/ultima-layout/images/error.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/ultima-layout/images/favicon.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/ultima-layout/images/logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/ultima-layout/images/logo2x.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/ultima-layout/images/logo-ultima.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/ultima-layout/images/user-bg2x.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/ultima-layout/images/user-bg.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/ultima-layout/images/profile-bg-dark.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/ultima-layout/images/profile-bg.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/ultima-layout/images/profile-bg.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/ultima-layout/images/logo-seap1.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/ultima-layout/images/logo-seap.svg" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/ultima-layout/images/401.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/ultima-layout/images/404.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/public/recurso/visualizar-balneabilidade.xhtml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mail.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/topbar.xhtml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/ufma/lsdi/model/neuro/DocumentoPessoal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        <state relative-caret-position="238">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templateSemMenu.xhtml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/ufma/lsdi/model/neuro/helper/PacienteHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="10" column="64" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
+        <state relative-caret-position="170">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/template.xhtml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/ufma/lsdi/configuration/mail/MailConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/footerTemplateSemMenu.xhtml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/ufma/lsdi/configuration/JSF/ServletContextConfigurator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
+        <state relative-caret-position="50">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/footer.xhtml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/ufma/lsdi/util/mail/Mailer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/public/tela-anderson.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="61" column="45" lean-forward="true" selection-start-line="61" selection-start-column="45" selection-end-line="61" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/primefaces/ultima/view/input/CalendarView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-660">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/public/recurso/cadastrar-laudo.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-198" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pretty-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="45" column="18" lean-forward="true" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/primefaces/ultima/view/multimedia/PhotoCamView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/menu.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="50" column="23" selection-start-line="50" selection-start-column="23" selection-end-line="55" selection-end-column="70" />
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/public/neuro/pacientes.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" selection-start-line="11" selection-end-line="24" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/public/recurso/buscar-recurso.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="123" column="20" selection-start-line="123" selection-start-column="20" selection-end-line="123" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/ufma/lsdi/model/interscity/Capability.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="9" selection-start-line="9" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/ufma/lsdi/model/neuro/DocumentoPessoal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        <state relative-caret-position="306">
+          <caret line="18" column="55" lean-forward="true" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/ufma/lsdi/model/neuro/Pessoa.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/ufma/lsdi/service/CRUDService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/ufma/lsdi/service/interscity/ResourceClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/ufma/lsdi/service/client/CapabilityClientFallback.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/ufma/lsdi/service/interscity/CapabilityClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/ufma/lsdi/model/interscity/Resource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/ufma/lsdi/controller/beans/CadastrarRecursoBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="55" selection-start-line="55" selection-end-line="62" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#979#980#0" expanded="true" />
-            <element signature="e#1031#1032#0" expanded="true" />
-            <element signature="e#1076#1077#0" expanded="true" />
-            <element signature="e#1105#1106#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/ufma/lsdi/model/neuro/Sexo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/public/recurso/cadastrar-recurso.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="64" column="103" lean-forward="true" selection-start-line="64" selection-start-column="49" selection-end-line="64" selection-end-column="103" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/ufma/lsdi/service/neuro/DocumentoPessoalClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="238">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/public/neuro/cadastro-paciente.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="163" column="94" selection-start-line="163" selection-start-column="94" selection-end-line="163" selection-end-column="94" />
-          <folding>
-            <element signature="n#p:tab#0;n#p:tabView#0;n#div#0;n#div#0;n#h:form#0;n#ui:define#1;n#ui:composition#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="298">
+          <caret line="24" column="100" selection-start-line="24" selection-start-column="100" selection-end-line="24" selection-end-column="100" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/ufma/lsdi/service/client/DocumentoPessoalClientFallback.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/ufma/lsdi/configuration/scope/ViewScope.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="20" />
-          <folding>
-            <element signature="e#588#589#0" expanded="true" />
-            <element signature="e#615#616#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="102">
+          <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/ufma/lsdi/controller/beans/neuro/DocumentoPessoalBean.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/ufma/lsdi/controller/beans/neuro/PacienteBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#662#663#0" expanded="true" />
-            <element signature="e#719#720#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="159">
+          <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <last-edited>ARLIMPOWEB:war exploded</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.5" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Spring</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>ARLIMPOWEB</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
       <state key="ProjectJDKs.UI">
         <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <last-edited>1.8.0_191</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

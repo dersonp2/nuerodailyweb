@@ -14,13 +14,9 @@ import java.util.Date;
 public class DocumentoPessoal implements Serializable {
     private Long id;
     private String cpf;
-
     private String rg;
-
     private String sus;
-
     private Date data;
-
     private Pessoa pessoa;
 
 }

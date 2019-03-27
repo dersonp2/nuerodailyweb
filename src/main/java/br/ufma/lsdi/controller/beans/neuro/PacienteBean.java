@@ -2,6 +2,7 @@ package br.ufma.lsdi.controller.beans.neuro;
 
 import br.ufma.lsdi.model.neuro.DocumentoPessoal;
 import br.ufma.lsdi.model.neuro.Paciente;
+import br.ufma.lsdi.model.neuro.Pessoa;
 import br.ufma.lsdi.model.neuro.helper.PacienteHelper;
 import br.ufma.lsdi.service.neuro.PacienteClient;
 import br.ufma.lsdi.util.WebUtil;
@@ -30,6 +31,11 @@ public class PacienteBean {
     @PostConstruct
     public void init() {
         pacienteHelper = new PacienteHelper();
+        pacienteHelper.setPaciente(new Paciente());
+        pacienteHelper.setDocumentoPessoal(new DocumentoPessoal());
+        pacienteHelper.setDocumentoPessoalResponsavel(new DocumentoPessoal());
+        pacienteHelper.getPaciente().setPessoa(new Pessoa());
+        pacienteHelper.getPaciente().getPessoa().setNome("Leonardo");
     }
 
     public void savePaciente() {

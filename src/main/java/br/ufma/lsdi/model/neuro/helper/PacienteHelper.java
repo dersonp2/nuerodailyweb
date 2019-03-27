@@ -12,9 +12,8 @@ import java.io.Serializable;
 @Data
 public class PacienteHelper implements Serializable {
 
-    private Paciente paciente = new Paciente();
-    private DocumentoPessoal documentoPessoal = new DocumentoPessoal();
-    private DocumentoPessoal documentoPessoalResponsavel = new DocumentoPessoal();
-    // private List<PessoaContato> pessoaContatos;
+    private Paciente paciente;
+    private DocumentoPessoal documentoPessoal;
+    private DocumentoPessoal documentoPessoalResponsavel;
 
 }
