@@ -2,6 +2,8 @@ package br.ufma.lsdi.controller.beans.neuro;
 
 import br.ufma.lsdi.model.interscity.Resource;
 import br.ufma.lsdi.model.neuro.DocumentoPessoal;
+import br.ufma.lsdi.model.neuro.Pessoa;
+import br.ufma.lsdi.model.neuro.Sexo;
 import br.ufma.lsdi.service.neuro.DocumentoPessoalClient;
 import br.ufma.lsdi.util.WebUtil;
 import org.springframework.context.annotation.Scope;
@@ -29,6 +31,15 @@ public class DocumentoPessoalBean {
     }
 
     public void salvar() {
+        Sexo sexo = new Sexo();
+        sexo.setId((long) 2);
+        Pessoa  pessoa = new Pessoa();
+        pessoa.setNome("Maria");
+        pessoa.setSexo(sexo);
+        documentoPessoal.setCpf("11111111");
+        documentoPessoal.setRg("22222222");
+        documentoPessoal.setSus("333333");
+        documentoPessoal.setPessoa(pessoa);
         DocumentoPessoal documentoPessoalRetorno =
                 documentoPessoalClient.saveDocumentoPessoal(documentoPessoal);
         if (documentoPessoalRetorno != null) {
