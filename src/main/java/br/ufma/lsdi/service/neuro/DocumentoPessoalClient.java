@@ -21,4 +21,5 @@ public interface DocumentoPessoalClient {
     @RequestMapping(method = RequestMethod.POST)
     DocumentoPessoal saveDocumentoPessoal(@RequestBody DocumentoPessoal documentoPessoal);
 
+
 }
