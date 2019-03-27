@@ -1,5 +1,7 @@
 package br.ufma.lsdi.controller.beans.neuro;
 
+import br.ufma.lsdi.model.neuro.DocumentoPessoal;
+import br.ufma.lsdi.model.neuro.Paciente;
 import br.ufma.lsdi.model.neuro.helper.PacienteHelper;
 import br.ufma.lsdi.service.neuro.PacienteClient;
 import br.ufma.lsdi.util.WebUtil;
@@ -12,7 +14,7 @@ import javax.faces.application.FacesMessage;
 import javax.faces.context.FacesContext;
 
 @Controller
-@Scope("View")
+@Scope("view")
 public class PacienteBean {
 
     @Autowired
@@ -44,10 +46,12 @@ public class PacienteBean {
     }
 
     public PacienteHelper getPacienteHelper() {
+
         return pacienteHelper;
     }
 
     public void setPacienteHelper(PacienteHelper pacienteHelper) {
+
         this.pacienteHelper = pacienteHelper;
     }
 

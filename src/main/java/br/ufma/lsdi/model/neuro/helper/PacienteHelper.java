@@ -5,17 +5,16 @@ import br.ufma.lsdi.model.neuro.Paciente;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.springframework.stereotype.Component;
 
 import java.io.Serializable;
 
 @Data
-@AllArgsConstructor
-@NoArgsConstructor
 public class PacienteHelper implements Serializable {
 
-    private Paciente paciente;
-    private DocumentoPessoal documentoPessoal;
-    private DocumentoPessoal documentoPessoalResponsavel;
+    private Paciente paciente = new Paciente();
+    private DocumentoPessoal documentoPessoal = new DocumentoPessoal();
+    private DocumentoPessoal documentoPessoalResponsavel = new DocumentoPessoal();
     // private List<PessoaContato> pessoaContatos;
 
 }
