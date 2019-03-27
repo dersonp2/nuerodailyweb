@@ -3,6 +3,7 @@ package br.ufma.lsdi.controller.beans.neuro;
 import br.ufma.lsdi.model.neuro.helper.PacienteHelper;
 import br.ufma.lsdi.service.neuro.PacienteClient;
 import br.ufma.lsdi.util.WebUtil;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Controller;
 
@@ -14,6 +15,7 @@ import javax.faces.context.FacesContext;
 @Scope("View")
 public class PacienteBean {
 
+    @Autowired
     private PacienteClient pacienteClient;
 
     private PacienteHelper pacienteHelper;
@@ -47,5 +49,13 @@ public class PacienteBean {
 
     public void setPacienteHelper(PacienteHelper pacienteHelper) {
         this.pacienteHelper = pacienteHelper;
+    }
+
+    public PacienteClient getPacienteClient() {
+        return pacienteClient;
+    }
+
+    public void setPacienteClient(PacienteClient pacienteClient) {
+        this.pacienteClient = pacienteClient;
     }
 }
