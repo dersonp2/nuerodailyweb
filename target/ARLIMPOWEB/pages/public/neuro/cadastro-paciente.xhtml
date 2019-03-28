@@ -22,45 +22,39 @@
                         <h:panelGroup styleClass="md-inputfield">
                             <p:inputText id="itNome"
                                          style="width: 100%;"
-                                         value="#{pacienteBean.pacienteHelper.paciente.pessoa.nome}"/>
+                                         value="#{pacienteBean.pessoa.nome}"/>
                             <p:outputLabel for=" itNome" value="Nome"/>
                         </h:panelGroup>
-                        <h:panelGroup styleClass="md-inputfield">
-                            <p:inputText id="itMat"
-                                         style="width: 50%;"
-                                         value="#{pacienteBean.pacienteHelper.paciente.matricula}"/>
-                            <p:outputLabel for="itMat" value="Matricula"/>
-                        </h:panelGroup>
                         <h:panelGroup styleClass="md-selectonemenu">
-                            <p:selectOneMenu id="somSexo" value="#{pacienteBean.pacienteHelper.paciente.pessoa.sexo.id}"
+                            <p:selectOneMenu id="somSexo" value="#{pacienteBean.sexo}"
                                              style="width:125px">
-                                <f:selectItem itemLabel="Sexo" itemValue="0"/>
-                                <f:selectItem itemLabel="Masculino" itemValue="1"/>
-                                <f:selectItem itemLabel="Feminino" itemValue="2"/>
+                                <!--<f:selectItems value="#{pacienteBean.sexos}" var="sexo" itemValue="#{sexo.descricao}"/>-->
+                                <f:selectItem itemLabel="MASCULINO" itemValue="1L" />
+                                <f:selectItem itemLabel="FEMININO" itemValue="2L" />
                             </p:selectOneMenu>
                         </h:panelGroup>
                         <h:panelGroup styleClass="md-inputfield">
                             <p:inputText id="itNasc"
                                          style="width: 50%;"
-                                         value="#{pacienteBean.pacienteHelper.paciente.pessoa.nascimento}"/>
+                                         value="#{pacienteBean.pessoa.nascimento}"/>
                             <p:outputLabel for="itNasc" value="Nascimento"/>
                         </h:panelGroup>
                         <h:panelGroup styleClass="md-inputfield">
                             <p:inputText id="itCpf"
                                          style="width: 100%;"
-                                         value="#{pacienteBean.pacienteHelper.documentoPessoal.cpf}"/>
+                                         value="#{pacienteBean.documentoPessoal.cpf}"/>
                             <p:outputLabel for="itCpf" value="CPF"/>
                         </h:panelGroup>
                         <h:panelGroup styleClass="md-inputfield">
                             <p:inputText id="itRG"
                                          style="width: 100%;"
-                                         value="#{pacienteBean.pacienteHelper.documentoPessoal.rg}"/>
+                                         value="#{pacienteBean.documentoPessoal.rg}"/>
                             <p:outputLabel for="itRG" value="RG"/>
                         </h:panelGroup>
                         <h:panelGroup styleClass="md-inputfield">
                             <p:inputText id="itSus"
                                          style="width: 100%;"
-                                         value="#{pacienteBean.pacienteHelper.documentoPessoal.sus}"/>
+                                         value="#{pacienteBean.documentoPessoal.sus}"/>
                             <p:outputLabel for="itSus" value="SUS"/>
                         </h:panelGroup>
                     </p:panelGrid>
@@ -74,36 +68,36 @@
                         <h:panelGroup styleClass="md-inputfield">
                             <p:inputText id="itNomeR"
                                          style="width: 100%;"
-                                         value="#{pacienteBean.pacienteHelper.paciente.responsavel.nome}"/>
+                                         value="#{pacienteBean.responsavel.nome}"/>
                             <p:outputLabel for="itNomeR" value="Nome do Responsável"/>
                         </h:panelGroup>
 
                         <p:selectOneMenu id="somSexoR"
-                                         value="#{pacienteBean.pacienteHelper.paciente.responsavel.sexo.id}"
+                                         value="#{pacienteBean.sexoResponsavel}"
                                          style="width:125px">
-                            <f:selectItem itemLabel="Sexo" itemValue="0"/>
-                            <f:selectItem itemLabel="Masculino" itemValue="1"/>
-                            <f:selectItem itemLabel="Feminino" itemValue="2"/>
+                            <!--<f:selectItems value="#{pacienteBean.sexos}" var="sexo" itemValue="#{sexo.descricao}"/>-->
+                            <f:selectItem itemLabel="MASCULINO" itemValue="1" />
+                            <f:selectItem itemLabel="FEMININO" itemValue="2" />
                         </p:selectOneMenu>
 
                         <h:panelGroup styleClass="md-inputfield">
                             <p:inputText id="itNascR"
                                          style="width: 50%;"
-                                         value="#{pacienteBean.pacienteHelper.paciente.responsavel.nascimento}"/>
+                                         value="#{pacienteBean.responsavel.nascimento}"/>
                             <p:outputLabel for=" itNascR" value="Nascimento do Responsável"/>
                         </h:panelGroup>
 
                         <h:panelGroup styleClass="md-inputfield">
                             <p:inputText id="itCpfR"
                                          style="width: 50%;"
-                                         value="#{pacienteBean.pacienteHelper.documentoPessoalResponsavel.cpf}"/>
+                                         value="#{pacienteBean.documentoPessoalResponsavel.cpf}"/>
                             <p:outputLabel for="itCpfR" value="CPF do Responsável"/>
                         </h:panelGroup>
 
                         <h:panelGroup styleClass="md-inputfield">
                             <p:inputText id="itRGR"
                                          style="width: 100%;"
-                                         value="#{pacienteBean.pacienteHelper.documentoPessoalResponsavel.cpf}"/>
+                                         value="#{pacienteBean.documentoPessoalResponsavel.rg}"/>
                             <p:outputLabel for="itRGR" value="RG do Responsável"/>
                         </h:panelGroup>
                     </p:panelGrid>
@@ -185,9 +179,9 @@
                                 <p:commandButton value="Cadastrar"
                                                  id="btnCadastrar"
                                                  icon="ui-icon-plus"
-                                                 action="#{pacienteBean.savePaciente}"
+                                                 action="#{pacienteBean.savePaciente()}"
                                                  update="@form"
-                                                 process="@this itNome itMat itNasc itCpf itRG itSus itNomeR itNascR itCpfR itRGR somSexo somSexoR"/>
+                                                 process="@this itNome itNasc itCpf itRG itSus itNomeR itNascR itCpfR itRGR somSexo somSexoR"/>
                                 <p:defaultCommand target="btnCadastrar"/>
                                 <span class="ui-separator" style="padding-right: 5px;"/>
                             </f:facet>

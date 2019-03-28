@@ -18,5 +18,5 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public interface PacienteClient {
 
     @RequestMapping(method = RequestMethod.POST)
-    PacienteHelper savePaciente(@RequestBody PacienteHelper pacienteHelper);
+    Paciente savePaciente(@RequestBody PacienteHelper pacienteHelper);
 }
