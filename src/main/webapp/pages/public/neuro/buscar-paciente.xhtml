@@ -37,9 +37,24 @@
                                 />
                                 <p:outputLabel for="itNome" value="Nome"/>
                             </h:panelGroup>
-                            <p:commandButton value="Buscar" icon="ui-icon-search"></p:commandButton>
                         </p:panelGrid>
                     </div>
+                </div>
+            </div>
+            <div class="ui-g" style="margin-top: -13px;">
+                <div class="ui-g-12">
+                    <p:toolbar>
+                        <f:facet name="left">
+                            <span class="ui-separator" style="padding-right: 5px;"/>
+                            <p:commandButton value="Buscar"
+                                             id="btnBuscarPaciente"
+                                             icon="ui-icon-search"
+                                             update="@form"
+                                             process="@this itNome"/>
+                            <p:defaultCommand target="btnBuscarPaciente"/>
+                            <span class="ui-separator" style="padding-right: 5px;"/>
+                        </f:facet>
+                    </p:toolbar>
                 </div>
             </div>
             <!--<div class="ui-g">-->

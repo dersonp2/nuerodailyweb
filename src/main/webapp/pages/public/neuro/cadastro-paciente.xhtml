@@ -14,7 +14,7 @@
                     <h1><b>Cadastrar Paciente</b></h1>
 
                     <p:tabView activeIndex="" id="tab">
-                        <p:tab title="Dados Pessoais">
+                        <p:tab title="Paciente">
                             <p:panelGrid id="pgNome" columns="2" columnClasses="ui-grid-col-6, ui-grid-col-6"
                                          layout="grid" styleClass="ui-panelgrid-blank form-group"
                                          style="border:0px none; background-color:transparent;">
@@ -61,6 +61,7 @@
                         </p:tab>
 
                         <p:tab title="Responsável">
+                            <h4>Dados Pessoais</h4>
                             <p:panelGrid id="pgNomeR" columns="2" columnClasses="ui-grid-col-6, ui-grid-col-6"
                                          layout="grid" styleClass="ui-panelgrid-blank form-group"
                                          style="border:0px none; background-color:transparent;">
@@ -74,8 +75,8 @@
 
                                 <h:panelGroup styleClass="md-selectonemenu">
                                     <p:selectOneMenu id="somSexoR" value="#{pacienteBean.sexoResponsavel.id}"
-                                                     style="width:125px"  label="Sexo">
-                                        <f:selectItem itemLabel="Sexo" itemValue="Sexo" />
+                                                     style="width:125px" label="Sexo">
+                                        <f:selectItem itemLabel="Sexo" itemValue="Sexo"/>
                                         <f:selectItems value="#{pacienteBean.sexos}" var="sexo"
                                                        itemValue="#{sexo.id}" itemLabel="#{sexo.descricao}"/>
                                     </p:selectOneMenu>
@@ -101,9 +102,8 @@
                                     <p:outputLabel for="itRGR" value="RG do Responsável"/>
                                 </h:panelGroup>
                             </p:panelGrid>
-                        </p:tab>
-                        <p:tab title="Contato">
-                            <p:panelGrid id="pgContato" columns="2" columnClasses="ui-grid-col-6, ui-grid-col-6"
+                            <h4>Teste</h4>
+                            <p:panelGrid id="pgContatoR" columns="2" columnClasses="ui-grid-col-6, ui-grid-col-6"
                                          layout="grid" styleClass="ui-panelgrid-blank form-group"
                                          style="border:0px none; background-color:transparent;">
                                 <h:panelGroup styleClass="md-inputfield">
@@ -121,6 +121,15 @@
                                                  style="width: 100%;"/>
                                     <p:outputLabel for="itEmail" value="Email"/>
                                 </h:panelGroup>
+                            </p:panelGrid>
+                        </p:tab>
+
+
+                        <p:tab title="Contato">
+                            <p:panelGrid id="pgContato" columns="2" columnClasses="ui-grid-col-6, ui-grid-col-6"
+                                         layout="grid" styleClass="ui-panelgrid-blank form-group"
+                                         style="border:0px none; background-color:transparent;">
+
                             </p:panelGrid>
                         </p:tab>
                         <p:tab title="Endereço">
