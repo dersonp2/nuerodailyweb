@@ -26,11 +26,11 @@
                                     <p:outputLabel for=" itNome" value="Nome"/>
                                 </h:panelGroup>
                                 <h:panelGroup styleClass="md-selectonemenu">
-                                    <p:selectOneMenu id="somSexo" value="#{pacienteBean.sexo}"
+                                    <p:selectOneMenu id="somSexo" value="#{pacienteBean.sexo.id}"
                                                      style="width:125px" label="Sexo">
                                         <f:selectItem itemLabel="Sexo" itemValue="Sexo"/>
                                         <f:selectItems value="#{pacienteBean.sexos}" var="sexo"
-                                                       itemValue="#{sexo}" itemLabel="#{sexo.descricao}"/>
+                                                       itemValue="#{sexo.id}" itemLabel="#{sexo.descricao}"/>
                                     </p:selectOneMenu>
                                 </h:panelGroup>
                                 <h:panelGroup styleClass="md-inputfield">
@@ -73,11 +73,11 @@
                                 </h:panelGroup>
 
                                 <h:panelGroup styleClass="md-selectonemenu">
-                                    <p:selectOneMenu id="somSexoR" value="#{pacienteBean.sexoResponsavel}"
+                                    <p:selectOneMenu id="somSexoR" value="#{pacienteBean.sexoResponsavel.id}"
                                                      style="width:125px"  label="Sexo">
                                         <f:selectItem itemLabel="Sexo" itemValue="Sexo" />
                                         <f:selectItems value="#{pacienteBean.sexos}" var="sexo"
-                                                       itemValue="#{sexo}" itemLabel="#{sexo.descricao}"/>
+                                                       itemValue="#{sexo.id}" itemLabel="#{sexo.descricao}"/>
                                     </p:selectOneMenu>
                                 </h:panelGroup>
                                 <h:panelGroup styleClass="md-inputfield">
