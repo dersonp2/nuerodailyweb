@@ -13,163 +13,163 @@
                 <div class="card card-w-title">
                     <h1><b>Cadastrar Paciente</b></h1>
 
-                    <!--<p:tabView activeIndex="">-->
-                    <!--<p:tab title="Dados Pessoais">-->
-                    <p:panelGrid id="pgNome" columns="2" columnClasses="ui-grid-col-6, ui-grid-col-6"
-                                 layout="grid" styleClass="ui-panelgrid-blank form-group"
-                                 style="border:0px none; background-color:transparent;">
+                    <p:tabView activeIndex="" id="tab">
+                        <p:tab title="Dados Pessoais">
+                            <p:panelGrid id="pgNome" columns="2" columnClasses="ui-grid-col-6, ui-grid-col-6"
+                                         layout="grid" styleClass="ui-panelgrid-blank form-group"
+                                         style="border:0px none; background-color:transparent;">
 
-                        <h:panelGroup styleClass="md-inputfield">
-                            <p:inputText id="itNome"
-                                         style="width: 100%;"
-                                         value="#{pacienteBean.pessoa.nome}"/>
-                            <p:outputLabel for=" itNome" value="Nome"/>
-                        </h:panelGroup>
-                        <h:panelGroup styleClass="md-selectonemenu">
-                            <p:selectOneMenu id="somSexo" value="#{pacienteBean.sexo}"
-                                             style="width:125px">
-                                <!--<f:selectItems value="#{pacienteBean.sexos}" var="sexo" itemValue="#{sexo.descricao}"/>-->
-                                <f:selectItem itemLabel="MASCULINO" itemValue="1L" />
-                                <f:selectItem itemLabel="FEMININO" itemValue="2L" />
-                            </p:selectOneMenu>
-                        </h:panelGroup>
-                        <h:panelGroup styleClass="md-inputfield">
-                            <p:inputText id="itNasc"
-                                         style="width: 50%;"
-                                         value="#{pacienteBean.pessoa.nascimento}"/>
-                            <p:outputLabel for="itNasc" value="Nascimento"/>
-                        </h:panelGroup>
-                        <h:panelGroup styleClass="md-inputfield">
-                            <p:inputText id="itCpf"
-                                         style="width: 100%;"
-                                         value="#{pacienteBean.documentoPessoal.cpf}"/>
-                            <p:outputLabel for="itCpf" value="CPF"/>
-                        </h:panelGroup>
-                        <h:panelGroup styleClass="md-inputfield">
-                            <p:inputText id="itRG"
-                                         style="width: 100%;"
-                                         value="#{pacienteBean.documentoPessoal.rg}"/>
-                            <p:outputLabel for="itRG" value="RG"/>
-                        </h:panelGroup>
-                        <h:panelGroup styleClass="md-inputfield">
-                            <p:inputText id="itSus"
-                                         style="width: 100%;"
-                                         value="#{pacienteBean.documentoPessoal.sus}"/>
-                            <p:outputLabel for="itSus" value="SUS"/>
-                        </h:panelGroup>
-                    </p:panelGrid>
-                    <!--</p:tab>-->
+                                <h:panelGroup styleClass="md-inputfield">
+                                    <p:inputText id="itNome"
+                                                 style="width: 100%;"
+                                                 value="#{pacienteBean.pessoa.nome}"/>
+                                    <p:outputLabel for=" itNome" value="Nome"/>
+                                </h:panelGroup>
+                                <h:panelGroup styleClass="md-selectonemenu">
+                                    <p:selectOneMenu id="somSexo" value="#{pacienteBean.sexo}"
+                                                     style="width:125px" label="Sexo">
+                                        <f:selectItem itemLabel="Sexo" itemValue="Sexo"/>
+                                        <f:selectItems value="#{pacienteBean.sexos}" var="sexo"
+                                                       itemValue="#{sexo}" itemLabel="#{sexo.descricao}"/>
+                                    </p:selectOneMenu>
+                                </h:panelGroup>
+                                <h:panelGroup styleClass="md-inputfield">
+                                    <p:inputText id="itNasc"
+                                                 style="width: 50%;"
+                                                 value="#{pacienteBean.pessoa.nascimento}"/>
+                                    <p:outputLabel for="itNasc" value="Nascimento"/>
+                                </h:panelGroup>
+                                <h:panelGroup styleClass="md-inputfield">
+                                    <p:inputText id="itCpf"
+                                                 style="width: 100%;"
+                                                 value="#{pacienteBean.documentoPessoal.cpf}"/>
+                                    <p:outputLabel for="itCpf" value="CPF"/>
+                                </h:panelGroup>
+                                <h:panelGroup styleClass="md-inputfield">
+                                    <p:inputText id="itRG"
+                                                 style="width: 100%;"
+                                                 value="#{pacienteBean.documentoPessoal.rg}"/>
+                                    <p:outputLabel for="itRG" value="RG"/>
+                                </h:panelGroup>
+                                <h:panelGroup styleClass="md-inputfield">
+                                    <p:inputText id="itSus"
+                                                 style="width: 100%;"
+                                                 value="#{pacienteBean.documentoPessoal.sus}"/>
+                                    <p:outputLabel for="itSus" value="SUS"/>
+                                </h:panelGroup>
+                            </p:panelGrid>
+                        </p:tab>
 
-                    <!--<p:tab title="Responsável">-->
-                    <p:panelGrid id="pgNomeR" columns="2" columnClasses="ui-grid-col-6, ui-grid-col-6"
-                                 layout="grid" styleClass="ui-panelgrid-blank form-group"
-                                 style="border:0px none; background-color:transparent;">
+                        <p:tab title="Responsável">
+                            <p:panelGrid id="pgNomeR" columns="2" columnClasses="ui-grid-col-6, ui-grid-col-6"
+                                         layout="grid" styleClass="ui-panelgrid-blank form-group"
+                                         style="border:0px none; background-color:transparent;">
 
-                        <h:panelGroup styleClass="md-inputfield">
-                            <p:inputText id="itNomeR"
-                                         style="width: 100%;"
-                                         value="#{pacienteBean.responsavel.nome}"/>
-                            <p:outputLabel for="itNomeR" value="Nome do Responsável"/>
-                        </h:panelGroup>
+                                <h:panelGroup styleClass="md-inputfield">
+                                    <p:inputText id="itNomeR"
+                                                 style="width: 100%;"
+                                                 value="#{pacienteBean.responsavel.nome}"/>
+                                    <p:outputLabel for="itNomeR" value="Nome do Responsável"/>
+                                </h:panelGroup>
 
-                        <p:selectOneMenu id="somSexoR"
-                                         value="#{pacienteBean.sexoResponsavel}"
-                                         style="width:125px">
-                            <!--<f:selectItems value="#{pacienteBean.sexos}" var="sexo" itemValue="#{sexo.descricao}"/>-->
-                            <f:selectItem itemLabel="MASCULINO" itemValue="1" />
-                            <f:selectItem itemLabel="FEMININO" itemValue="2" />
-                        </p:selectOneMenu>
+                                <h:panelGroup styleClass="md-selectonemenu">
+                                    <p:selectOneMenu id="somSexoR" value="#{pacienteBean.sexoResponsavel}"
+                                                     style="width:125px"  label="Sexo">
+                                        <f:selectItem itemLabel="Sexo" itemValue="Sexo" />
+                                        <f:selectItems value="#{pacienteBean.sexos}" var="sexo"
+                                                       itemValue="#{sexo}" itemLabel="#{sexo.descricao}"/>
+                                    </p:selectOneMenu>
+                                </h:panelGroup>
+                                <h:panelGroup styleClass="md-inputfield">
+                                    <p:inputText id="itNascR"
+                                                 style="width: 50%;"
+                                                 value="#{pacienteBean.responsavel.nascimento}"/>
+                                    <p:outputLabel for=" itNascR" value="Nascimento do Responsável"/>
+                                </h:panelGroup>
 
-                        <h:panelGroup styleClass="md-inputfield">
-                            <p:inputText id="itNascR"
-                                         style="width: 50%;"
-                                         value="#{pacienteBean.responsavel.nascimento}"/>
-                            <p:outputLabel for=" itNascR" value="Nascimento do Responsável"/>
-                        </h:panelGroup>
+                                <h:panelGroup styleClass="md-inputfield">
+                                    <p:inputText id="itCpfR"
+                                                 style="width: 50%;"
+                                                 value="#{pacienteBean.documentoPessoalResponsavel.cpf}"/>
+                                    <p:outputLabel for="itCpfR" value="CPF do Responsável"/>
+                                </h:panelGroup>
 
-                        <h:panelGroup styleClass="md-inputfield">
-                            <p:inputText id="itCpfR"
-                                         style="width: 50%;"
-                                         value="#{pacienteBean.documentoPessoalResponsavel.cpf}"/>
-                            <p:outputLabel for="itCpfR" value="CPF do Responsável"/>
-                        </h:panelGroup>
+                                <h:panelGroup styleClass="md-inputfield">
+                                    <p:inputText id="itRGR"
+                                                 style="width: 100%;"
+                                                 value="#{pacienteBean.documentoPessoalResponsavel.rg}"/>
+                                    <p:outputLabel for="itRGR" value="RG do Responsável"/>
+                                </h:panelGroup>
+                            </p:panelGrid>
+                        </p:tab>
+                        <p:tab title="Contato">
+                            <p:panelGrid id="pgContato" columns="2" columnClasses="ui-grid-col-6, ui-grid-col-6"
+                                         layout="grid" styleClass="ui-panelgrid-blank form-group"
+                                         style="border:0px none; background-color:transparent;">
+                                <h:panelGroup styleClass="md-inputfield">
+                                    <p:inputText id="itTelefone"
+                                                 style="width: 100%;"/>
+                                    <p:outputLabel for="itTelefone" value="Telefone"/>
+                                </h:panelGroup>
+                                <h:panelGroup styleClass="md-inputfield">
+                                    <p:inputText id="itCelular"
+                                                 style="width: 100%;"/>
+                                    <p:outputLabel for="itCelular" value="Celular"/>
+                                </h:panelGroup>
+                                <h:panelGroup styleClass="md-inputfield">
+                                    <p:inputText id="itEmail"
+                                                 style="width: 100%;"/>
+                                    <p:outputLabel for="itEmail" value="Email"/>
+                                </h:panelGroup>
+                            </p:panelGrid>
+                        </p:tab>
+                        <p:tab title="Endereço">
+                            <p:panelGrid id="pgEndeco" columns="2" columnClasses="ui-grid-col-6, ui-grid-col-6"
+                                         layout="grid" styleClass="ui-panelgrid-blank form-group"
+                                         style="border:0px none; background-color:transparent;">
+                                <h:panelGroup styleClass="md-inputfield">
+                                    <p:inputText id="itCidade"
+                                                 style="width: 100%;"/>
+                                    <p:outputLabel for="itCidade" value="Cidade"/>
+                                </h:panelGroup>
+                                <h:panelGroup styleClass="md-inputfield">
+                                    <p:inputText id="itRua"
+                                                 style="width: 100%;"/>
+                                    <p:outputLabel for="itRua" value="Rua"/>
+                                </h:panelGroup>
+                                <h:panelGroup styleClass="md-inputfield">
+                                    <p:inputText id="itCep"
+                                                 style="width: 100%;"/>
+                                    <p:outputLabel for="itCep" value="CEP"/>
+                                </h:panelGroup>
+                                <h:panelGroup styleClass="md-inputfield">
+                                    <p:inputText id="itComplemento"
+                                                 style="width: 100%;"/>
+                                    <p:outputLabel for="itComplemento" value="Complemento"/>
+                                </h:panelGroup>
+                                <h:panelGroup styleClass="md-inputfield">
+                                    <p:inputText id="itNumero"
+                                                 style="width: 30%;"/>
+                                    <p:outputLabel for="itNumero" value="Nº"/>
+                                </h:panelGroup>
+                            </p:panelGrid>
+                        </p:tab>
+                        <p:tab title="Foto">
+                            <p:panelGrid id="pgFoto" columns="2" columnClasses="ui-grid-col-6, ui-grid-col-6"
+                                         layout="grid" styleClass="ui-panelgrid-blank form-group"
+                                         style="border:0px none; background-color:transparent;">
+                                <h:panelGroup>
+                                    <p:fileUpload value="#{fileUploadView.file}" mode="simple"
+                                                  skinSimple="true" label="Selecionar Foto"/>
 
-                        <h:panelGroup styleClass="md-inputfield">
-                            <p:inputText id="itRGR"
-                                         style="width: 100%;"
-                                         value="#{pacienteBean.documentoPessoalResponsavel.rg}"/>
-                            <p:outputLabel for="itRGR" value="RG do Responsável"/>
-                        </h:panelGroup>
-                    </p:panelGrid>
-                    <!--</p:tab>-->
-                    <!--<p:tab title="Contato">-->
-                    <p:panelGrid id="pgContato" columns="2" columnClasses="ui-grid-col-6, ui-grid-col-6"
-                                 layout="grid" styleClass="ui-panelgrid-blank form-group"
-                                 style="border:0px none; background-color:transparent;">
-                        <h:panelGroup styleClass="md-inputfield">
-                            <p:inputText id="itTelefone"
-                                         style="width: 100%;"/>
-                            <p:outputLabel for="itTelefone" value="Telefone"/>
-                        </h:panelGroup>
-                        <h:panelGroup styleClass="md-inputfield">
-                            <p:inputText id="itCelular"
-                                         style="width: 100%;"/>
-                            <p:outputLabel for="itCelular" value="Celular"/>
-                        </h:panelGroup>
-                        <h:panelGroup styleClass="md-inputfield">
-                            <p:inputText id="itEmail"
-                                         style="width: 100%;"/>
-                            <p:outputLabel for="itEmail" value="Email"/>
-                        </h:panelGroup>
-                    </p:panelGrid>
-                    <!--</p:tab>-->
-                    <!--<p:tab title="Endereço">-->
-                    <p:panelGrid id="pgEndeco" columns="2" columnClasses="ui-grid-col-6, ui-grid-col-6"
-                                 layout="grid" styleClass="ui-panelgrid-blank form-group"
-                                 style="border:0px none; background-color:transparent;">
-                        <h:panelGroup styleClass="md-inputfield">
-                            <p:inputText id="itCidade"
-                                         style="width: 100%;"/>
-                            <p:outputLabel for="itCidade" value="Cidade"/>
-                        </h:panelGroup>
-                        <h:panelGroup styleClass="md-inputfield">
-                            <p:inputText id="itRua"
-                                         style="width: 100%;"/>
-                            <p:outputLabel for="itRua" value="Rua"/>
-                        </h:panelGroup>
-                        <h:panelGroup styleClass="md-inputfield">
-                            <p:inputText id="itCep"
-                                         style="width: 100%;"/>
-                            <p:outputLabel for="itCep" value="CEP"/>
-                        </h:panelGroup>
-                        <h:panelGroup styleClass="md-inputfield">
-                            <p:inputText id="itComplemento"
-                                         style="width: 100%;"/>
-                            <p:outputLabel for="itComplemento" value="Complemento"/>
-                        </h:panelGroup>
-                        <h:panelGroup styleClass="md-inputfield">
-                            <p:inputText id="itNumero"
-                                         style="width: 30%;"/>
-                            <p:outputLabel for="itNumero" value="Nº"/>
-                        </h:panelGroup>
-                    </p:panelGrid>
-                    <!--</p:tab>-->
-                    <!--<p:tab title="Contato">-->
-                    <p:panelGrid id="pgFoto" columns="2" columnClasses="ui-grid-col-6, ui-grid-col-6"
-                                 layout="grid" styleClass="ui-panelgrid-blank form-group"
-                                 style="border:0px none; background-color:transparent;">
-                        <h:panelGroup>
-                            <p:fileUpload value="#{fileUploadView.file}" mode="simple"
-                                          skinSimple="true" label="Selecionar Foto"/>
+                                    <br/> <br/>
 
-                            <br/> <br/>
-
-                            <p:commandButton value="Enviar" ajax="false" action="#{fileUploadView.upload}"
-                                             disabled="true"/>
-                        </h:panelGroup>
-                    </p:panelGrid>
-                    <!--</p:tab>-->
-                    <!--</p:tabView>-->
+                                    <p:commandButton value="Enviar" ajax="false" action="#{fileUploadView.upload}"
+                                                     disabled="true"/>
+                                </h:panelGroup>
+                            </p:panelGrid>
+                        </p:tab>
+                    </p:tabView>
                 </div>
                 <div class="ui-g" style="margin-top: -13px;">
                     <div class="ui-g-12">
@@ -181,7 +181,8 @@
                                                  icon="ui-icon-plus"
                                                  action="#{pacienteBean.savePaciente()}"
                                                  update="@form"
-                                                 process="@this itNome itNasc itCpf itRG itSus itNomeR itNascR itCpfR itRGR somSexo somSexoR"/>
+                                                 process="@this tab:itNome tab:itNasc tab:itCpf tab:itRG tab:itSus tab:itNomeR
+                                                 tab:itNascR tab:itCpfR tab:itRGR tab:somSexo tab:somSexoR"/>
                                 <p:defaultCommand target="btnCadastrar"/>
                                 <span class="ui-separator" style="padding-right: 5px;"/>
                             </f:facet>

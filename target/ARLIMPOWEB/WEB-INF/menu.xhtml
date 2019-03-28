@@ -55,15 +55,23 @@
                         <p:menuitem id="dashboard_sensor" value="Qualidade do AR" icon="&#xE871;"
                                     outcome="pretty:dashboardSensor"/>
 
-                        <p:menuitem id="recurso" value="Recurso" icon="&#xE871;"
+                        <p:menuitem id="recurso" value="Recurso" icon="search"
                                     outcome="pretty:buscaRecurso"/>
 
 
                         <!--<p:menuitem id="anderson" value="Tela do Anderson" outcome="pretty:anderson"-->
-                                    <!--icon="&#xE871;"/>-->
+                        <!--icon="&#xE871;"/>-->
+                        <p:submenu label="Paciente" icon="person">
+                            <p:menuitem id="cadastrarpacientes" value="Cadastrar" outcome="pretty:cadastroPaciente"
+                                        icon="person_add"/>
+                            <p:menuitem id="listarpacientes" value="Listar" outcome="pretty:pacientes"
+                                        icon="format_list_bulleted"/>
+                            <p:menuitem id="buscarPaciente" value="Buscar" outcome="pretty:buscarPaciente"
+                                        icon="search"/>
+                            <p:menuitem id="avaliarpacientes" value="Avaliar" outcome="pretty:pacientes"
+                                        icon="note_add"/>
+                        </p:submenu>
 
-                        <p:menuitem id="pacientes" value="Pacientes" outcome="pretty:pacientes"
-                                    icon="&#xE871;"/>
                     </pu:menu>
                 </div>
             </div>
