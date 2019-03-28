@@ -7,6 +7,7 @@ import br.ufma.lsdi.model.neuro.Sexo;
 import br.ufma.lsdi.model.neuro.helper.PacienteHelper;
 import br.ufma.lsdi.service.neuro.PacienteClient;
 import br.ufma.lsdi.util.WebUtil;
+import org.primefaces.component.message.Message;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Controller;
@@ -58,7 +59,7 @@ public class PacienteBean {
 
     public void savePaciente() {
         PacienteHelper pacienteHelper = new PacienteHelper();
-        if(validarCampos()){
+        if (validarCampos()) {
             pessoa.setSexo(sexo);
             paciente.setPessoa(pessoa);
             responsavel.setSexo(sexoResponsavel);
@@ -69,41 +70,48 @@ public class PacienteBean {
             pacienteHelper.setPaciente(paciente);
             pacienteHelper.setDocumentoPessoal(documentoPessoal);
             pacienteHelper.setDocumentoPessoalResponsavel(documentoPessoalResponsavel);
+            try {
 
-            paciente = pacienteClient.savePaciente(pacienteHelper);
+                paciente = pacienteClient.savePaciente(pacienteHelper);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+            if(paciente != null && paciente.getId() != null){
+
+            }
         }
     }
 
-    public boolean validarCampos(){
-        if(pessoa.getNome() == null ){
+    public boolean validarCampos() {
+        if (pessoa.getNome() == null) {
             //colocar grow (metodo)
             return false;
         }
 
-        if(responsavel.getNome() == null){
+        if (responsavel.getNome() == null) {
             return false;
         }
 
-        if(documentoPessoal.getCpf() == null){
+        if (documentoPessoal.getCpf() == null) {
             return false;
         }
 
-        if(documentoPessoalResponsavel.getCpf()== null){
+        if (documentoPessoalResponsavel.getCpf() == null) {
             return false;
         }
 
-        if(sexo.getId() == null){
+        if (sexo.getId() == null) {
             return false;
         }
 
-        if(sexoResponsavel.getId() == null){
+        if (sexoResponsavel.getId() == null) {
             return false;
         }
 
         return true;
     }
 
-    public void carregarSexo(){
+    public void carregarSexo() {
         sexos.add(new Sexo(1L, "Masculino"));
         sexos.add(new Sexo(2L, "Feminino"));
     }

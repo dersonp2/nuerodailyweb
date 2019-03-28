@@ -15,6 +15,7 @@
 
                     <p:tabView activeIndex="" id="tab">
                         <p:tab title="Paciente">
+                            <h4>Dados Pessoais</h4>
                             <p:panelGrid id="pgNome" columns="2" columnClasses="ui-grid-col-6, ui-grid-col-6"
                                          layout="grid" styleClass="ui-panelgrid-blank form-group"
                                          style="border:0px none; background-color:transparent;">
@@ -34,13 +35,13 @@
                                     </p:selectOneMenu>
                                 </h:panelGroup>
                                 <h:panelGroup styleClass="md-inputfield">
-                                    <p:inputText id="itNasc"
+                                    <p:inputMask mask="99/99/9999" id="itNasc"
                                                  style="width: 50%;"
                                                  value="#{pacienteBean.pessoa.nascimento}"/>
                                     <p:outputLabel for="itNasc" value="Nascimento"/>
                                 </h:panelGroup>
                                 <h:panelGroup styleClass="md-inputfield">
-                                    <p:inputText id="itCpf"
+                                    <p:inputMask mask="999.999.999-99" id="itCpf"
                                                  style="width: 100%;"
                                                  value="#{pacienteBean.documentoPessoal.cpf}"/>
                                     <p:outputLabel for="itCpf" value="CPF"/>
@@ -82,14 +83,14 @@
                                     </p:selectOneMenu>
                                 </h:panelGroup>
                                 <h:panelGroup styleClass="md-inputfield">
-                                    <p:inputText id="itNascR"
+                                    <p:inputMask mask="99/99/9999" id="itNascR"
                                                  style="width: 50%;"
                                                  value="#{pacienteBean.responsavel.nascimento}"/>
                                     <p:outputLabel for=" itNascR" value="Nascimento do Responsável"/>
                                 </h:panelGroup>
 
                                 <h:panelGroup styleClass="md-inputfield">
-                                    <p:inputText id="itCpfR"
+                                    <p:inputMask mask="999.999.999-99" id="itCpfR"
                                                  style="width: 50%;"
                                                  value="#{pacienteBean.documentoPessoalResponsavel.cpf}"/>
                                     <p:outputLabel for="itCpfR" value="CPF do Responsável"/>
@@ -102,12 +103,12 @@
                                     <p:outputLabel for="itRGR" value="RG do Responsável"/>
                                 </h:panelGroup>
                             </p:panelGrid>
-                            <h4>Teste</h4>
+                            <h4>Contato</h4>
                             <p:panelGrid id="pgContatoR" columns="2" columnClasses="ui-grid-col-6, ui-grid-col-6"
                                          layout="grid" styleClass="ui-panelgrid-blank form-group"
                                          style="border:0px none; background-color:transparent;">
                                 <h:panelGroup styleClass="md-inputfield">
-                                    <p:inputText id="itTelefone"
+                                    <p:inputMask mask="(99) 99999.9999" id="itTelefone"
                                                  style="width: 100%;"/>
                                     <p:outputLabel for="itTelefone" value="Telefone"/>
                                 </h:panelGroup>
@@ -121,15 +122,6 @@
                                                  style="width: 100%;"/>
                                     <p:outputLabel for="itEmail" value="Email"/>
                                 </h:panelGroup>
-                            </p:panelGrid>
-                        </p:tab>
-
-
-                        <p:tab title="Contato">
-                            <p:panelGrid id="pgContato" columns="2" columnClasses="ui-grid-col-6, ui-grid-col-6"
-                                         layout="grid" styleClass="ui-panelgrid-blank form-group"
-                                         style="border:0px none; background-color:transparent;">
-
                             </p:panelGrid>
                         </p:tab>
                         <p:tab title="Endereço">

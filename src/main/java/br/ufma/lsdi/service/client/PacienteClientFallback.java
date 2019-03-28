@@ -15,4 +15,9 @@ public class PacienteClientFallback implements PacienteClient {
     public Paciente savePaciente(PacienteHelper pacienteHelper) {
         return null;
     }
+
+    @Override
+    public Paciente getPaciente(Long id) {
+        return null;
+    }
 }
