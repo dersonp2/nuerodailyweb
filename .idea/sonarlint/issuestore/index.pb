@@ -21,3 +21,15 @@ l
 <src/main/webapp/pages/public/recurso/cadastrar-recurso.xhtml,6\f\6f8ff15175928c63f16bc8c6f1774d55c1e52d25
 j
 :src/main/webapp/pages/public/recurso/cadastrar-laudo.xhtml,8\e\8ebf66cea925ecbb50dbb4f5faa6d8dbd86f37f3
+{
+Ksrc/main/java/br/ufma/lsdi/controller/beans/neuro/DocumentoPessoalBean.java,b\8\b88effde12e8b80ac2ea24469df63f2db129ff84
+t
+Dsrc/main/java/br/ufma/lsdi/service/neuro/DocumentoPessoalClient.java,8\3\83ca8a438c539bb1f5fb51962c7993d2f0a9f80b
+u
+Esrc/main/java/br/ufma/lsdi/service/client/PacienteClientFallback.java,7\8\78bedaf7f7935e279a52e30cab09081b6f53f8bb
+l
+<src/main/java/br/ufma/lsdi/service/neuro/PacienteClient.java,6\b\6b9fb7ea70c69499a537e474e1dc61db8ac503cd
+s
+Csrc/main/java/br/ufma/lsdi/controller/beans/neuro/PacienteBean.java,c\1\c1f750e6441df540c22d427166be743860f96c76
+y
+Isrc/main/java/br/ufma/lsdi/controller/beans/neuro/BuscarPacienteBean.java,9\3\9331c41d9ef34931128fa43634c0f511476e9339

@@ -1,22 +1,22 @@
 
-Zsquid:S2147"ECombine this catch with the one at line 124, which has the same body.(‹±ÃÆ
-psquid:S1450"[Remove the "capabilities" field and declare it as a local variable in the relevant methods.(ÌĞÁÇ
-Dsquid:S1066"/Merge this if statement with the enclosing one.(°¶î›
-lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(‚‡¼Øüÿÿÿÿ
-asquid:HiddenFieldCheck"<Rename "resource" which hides the field declared at line 34.(±¤„úÿÿÿÿ
-lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(Éú»Óúÿÿÿÿ
-isquid:S1450"TRemove the "uuids" field and declare it as a local variable in the relevant methods.(¦«Ğ¦
-Xsquid:UnusedPrivateMethod"0Remove this unused private "getLastData" method.(Éú»Óúÿÿÿÿ
-Msquid:S1854"8Remove this useless assignment to local variable "gson".(şëŒ
-Qsquid:S1854"<Remove this useless assignment to local variable "resource".(¦™ü”
->squid:S1068")Remove this unused "uuids" private field.(¦«Ğ¦
-=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-\squid:HiddenFieldCheck"<Rename "resource" which hides the field declared at line 34.(¦™ü”
-[squid:S1854"ARemove this useless assignment to local variable "dataAuxiliars".(Éóóúÿÿÿÿ
->squid:S1481")Remove this unused "gson" local variable.(şëŒ
-=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-isquid:S1192"ODefine a constant instead of duplicating this literal "BALNEABILIDADE" 4 times.(èÌßÇÿÿÿÿÿ
-@squid:S1068"+Remove this unused "catalog" private field.(Ó•‰€
-Dsquid:S1066"/Merge this if statement with the enclosing one.(ÂúĞ
-Esquid:S1068"0Remove this unused "capabilities" private field.(ÌĞÁÇ
-tsquid:S1450"_Remove the "resourceAuxiliar" field and declare it as a local variable in the relevant methods.(´¹€
+ksquid:S1192N"ODefine a constant instead of duplicating this literal "BALNEABILIDADE" 4 times.(èÌßÇÿÿÿÿÿ
+\squid:S2147~"ECombine this catch with the one at line 124, which has the same body.(‹±ÃÆ
+?squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+]squid:S1854_"ARemove this useless assignment to local variable "dataAuxiliars".(Éóóúÿÿÿÿ
+Gsquid:S1066³"/Merge this if statement with the enclosing one.(ÂúĞ
+osquid:S3776•"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(‚‡¼Øüÿÿÿÿ
+osquid:S3776¥"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(Éú»Óúÿÿÿÿ
+dsquid:HiddenFieldCheck„"<Rename "resource" which hides the field declared at line 34.(±¤„úÿÿÿÿ
+ksquid:S1450*"TRemove the "uuids" field and declare it as a local variable in the relevant methods.(¦«Ğ¦
+Bsquid:S1068%"+Remove this unused "catalog" private field.(Ó•‰€
+Fsquid:S1066e"/Merge this if statement with the enclosing one.(°¶î›
+rsquid:S1450+"[Remove the "capabilities" field and declare it as a local variable in the relevant methods.(ÌĞÁÇ
+?squid:S1148}"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+vsquid:S1450'"_Remove the "resourceAuxiliar" field and declare it as a local variable in the relevant methods.(´¹€
+^squid:HiddenFieldCheckb"<Rename "resource" which hides the field declared at line 34.(¦™ü”
+@squid:S1481^")Remove this unused "gson" local variable.(şëŒ
+@squid:S1068*")Remove this unused "uuids" private field.(¦«Ğ¦
+Gsquid:S1068+"0Remove this unused "capabilities" private field.(ÌĞÁÇ
+Osquid:S1854^"8Remove this useless assignment to local variable "gson".(şëŒ
+[squid:UnusedPrivateMethod¥"0Remove this unused private "getLastData" method.(Éú»Óúÿÿÿÿ
+Ssquid:S1854b"<Remove this useless assignment to local variable "resource".(¦™ü”

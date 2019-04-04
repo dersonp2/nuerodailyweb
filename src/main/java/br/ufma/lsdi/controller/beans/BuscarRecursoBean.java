@@ -30,7 +30,7 @@ public class BuscarRecursoBean {
 
     private List<Resource> resources;
 
-    private Resource resource;
+        private Resource resource;
 
     private ResourceColectorService colectorService;
 

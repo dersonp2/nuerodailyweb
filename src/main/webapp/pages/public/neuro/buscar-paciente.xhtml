@@ -18,6 +18,7 @@
                                      style="border:0px none; background-color:transparent;">
                             <h:panelGroup styleClass="md-inputfield">
                                 <p:inputText id="itNome" style="width: 100%;"
+                                             value="#{buscarPacienteBean.pessoa.nome}"
                                 />
                                 <p:outputLabel for="itNome" value="Nome"/>
                             </h:panelGroup>
@@ -33,6 +34,7 @@
                             <p:commandButton value="Buscar"
                                              id="btnBuscarPaciente"
                                              icon="ui-icon-search"
+                                             action="#{buscarPacienteBean.searchPacienteByNome}"
                                              update="@form"
                                              process="@this itNome"/>
                             <p:defaultCommand target="btnBuscarPaciente"/>
@@ -41,6 +43,41 @@
                     </p:toolbar>
                 </div>
             </div>
+
+            <div class="ui-g">
+                <div class="ui-g-12">
+                    <div class="card card-w-title">
+                        <h1><b>Pacientes</b></h1>
+                        <p:dataTable var="paciente"
+                                     value="#{buscarPacienteBean.pacientes}"
+                                     reflow="true"
+                                     paginator="true"
+                                     rows="10"
+                                     rowKey="#{paciente.id}"
+                                     emptyMessage="Nenhum Paciente encontrado."
+                                     paginatorPosition="bottom">
+
+                            <p:column headerText="Paciente" style="text-align: center">
+                                <h:outputText value="#{paciente.pessoa.nome}"/>
+                            </p:column>
+                            <p:column headerText="Responsável" style="text-align: center">
+                                <h:outputText  value="#{paciente.responsavel.nome}"/>
+                            </p:column>
+
+                            <p:column headerText="Opções">
+                                <p:commandButton
+                                        title="Visualizar"
+                                        icon="ui-icon-remove-red-eye"
+                                        process="@this"
+                                        update="@this"
+                                        style="margin-left:12px"/>
+                            </p:column>
+                        </p:dataTable>
+
+                    </div>
+                </div>
+            </div>
+
         </h:form>
     </ui:define>
 
