@@ -7,6 +7,8 @@ import br.ufma.lsdi.service.neuro.DocumentoPessoalClient;
 import br.ufma.lsdi.service.neuro.PacienteClient;
 import org.springframework.stereotype.Component;
 
+import java.util.List;
+
 @Component
 public class PacienteClientFallback implements PacienteClient {
 
@@ -20,4 +22,10 @@ public class PacienteClientFallback implements PacienteClient {
     public Paciente getPaciente(Long id) {
         return null;
     }
+
+    @Override
+    public List<Paciente> getPacienteNome(String nome) {
+        return null;
+    }
+
 }

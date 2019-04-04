@@ -39,12 +39,12 @@ public class PacienteBean {
         this.pacienteClient = pacienteClient;
     }
 
+
     @PostConstruct
     public void init() {
         iniciarObj();
         carregarSexo();
     }
-
     public void iniciarObj() {
         pessoa = new Pessoa();
         responsavel = new Pessoa();

@@ -19,7 +19,6 @@
                             <p:panelGrid id="pgNome" columns="2" columnClasses="ui-grid-col-6, ui-grid-col-6"
                                          layout="grid" styleClass="ui-panelgrid-blank form-group"
                                          style="border:0px none; background-color:transparent;">
-
                                 <h:panelGroup styleClass="md-inputfield">
                                     <p:inputText id="itNome"
                                                  style="width: 100%;"
@@ -34,10 +33,15 @@
                                                        itemValue="#{sexo.id}" itemLabel="#{sexo.descricao}"/>
                                     </p:selectOneMenu>
                                 </h:panelGroup>
-                                <h:panelGroup styleClass="md-inputfield">
-                                    <p:inputMask mask="99/99/9999" id="itNasc"
-                                                 style="width: 50%;"
-                                                 value="#{pacienteBean.pessoa.nascimento}"/>
+                            </p:panelGrid>
+                            <p:panelGrid layout="grid" columns="4"
+                                         styleClass="ui-panelgrid-blank form-group"
+                                         columnClasses="ui-grid-col-2, ui-grid-col-3, ui-grid-col-3, ui-grid-col-3">
+                                <h:panelGroup styleClass=" md-inputfield" id="itNasc">
+                                    <p:calendar value="#{pacienteBean.pessoa.nascimento}"
+                                                required="true"
+                                                requiredMessage="Nascimento obrigatório"
+                                                mask="true" style="width: 100%;" pattern="dd/MM/yyyy"/>
                                     <p:outputLabel for="itNasc" value="Nascimento"/>
                                 </h:panelGroup>
                                 <h:panelGroup styleClass="md-inputfield">
@@ -175,11 +179,12 @@
                 <div class="ui-g" style="margin-top: -13px;">
                     <div class="ui-g-12">
                         <p:toolbar>
-                            <f:facet name="left">
+                            <f:facet name="right">
                                 <span class="ui-separator" style="padding-right: 5px;"/>
                                 <p:commandButton value="Cadastrar"
                                                  id="btnCadastrar"
                                                  icon="ui-icon-plus"
+                                                 styleClass="green-btn"
                                                  action="#{pacienteBean.savePaciente()}"
                                                  update="@form"
                                                  process="@this tab:itNome tab:itNasc tab:itCpf tab:itRG tab:itSus tab:itNomeR
