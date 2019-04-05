@@ -30,12 +30,12 @@
                         <p:fieldset legend="Paciente" style="margin-bottom:20px">
                             <p:panelGrid layout="grid" columns="5"
                                          styleClass="ui-panelgrid-blank form-group"
-                                         columnClasses="ui-grid-col-6, ui-grid-col-4, ui-grid-col-4">
+                                         columnClasses="ui-grid-col-6, ui-grid-col-3, ui-grid-col-2">
+                                <h:panelGroup styleClass="md-inputfield" id="sex">
+                                    <p:graphicImage value="#{graphicImageView.chart}"/>
+                                </h:panelGroup>
                                 <h:panelGroup styleClass="md-inputfield" id="nome">
                                     <h:outputLabel value="Nome: #{visualizarPaciente.paciente.pessoa.nome}"/>
-                                </h:panelGroup>
-                                <h:panelGroup styleClass="md-inputfield" id="sex">
-                                    <h:outputLabel value="sexo:"/>
                                 </h:panelGroup>
                                 <h:panelGroup styleClass="md-inputfield" id="nascimento">
                                     <h:outputLabel value="Nascimento:"/>
