@@ -8,15 +8,15 @@
     <ui:define name="title">Paciente</ui:define>
     <ui:define name="content">
         <h:form id="form" prependId="false">
-        <!-- MESSAGES -->
-        <p:growl id="messages" showDetail="false"
-                 closable="true" showIcon="false" sticky="true"/>
-        <!-- MESSAGES -->
+            <!-- MESSAGES -->
+            <p:growl id="messages" showDetail="false"
+                     closable="true" showIcon="false" sticky="true"/>
+            <!-- MESSAGES -->
             <div class="ui-g">
                 <div class="ui-g-12">
                     <p:toolbar>
                         <f:facet name="left">
-                            <p:commandButton id="btnVoltar" value="#{visualizarPaciente.paciente.pessoa.nome}"
+                            <p:commandButton id="btnVoltar" value="Voltar"
                                              ajax="false"
                                              action="pretty:buscarPaciente"
                                              icon="ui-icon-arrow-back"/>
@@ -24,10 +24,28 @@
                     </p:toolbar>
                 </div>
             </div>
-            <!--<p:inputText id="itDescricao"-->
-                         <!--value="#{visualizarPaciente.paciente.pessoa.nome}"-->
-                         <!--style="width: 100%;"/>-->
-            <!--<p:outputLabel for="itDescricao" value="Recurso"/>-->
+            <div class="ui-g-12">
+                <div class="card card-w-title">
+                    <h:panelGroup>
+                        <p:fieldset legend="Paciente" style="margin-bottom:20px">
+                            <p:panelGrid layout="grid" columns="5"
+                                         styleClass="ui-panelgrid-blank form-group"
+                                         columnClasses="ui-grid-col-6, ui-grid-col-4, ui-grid-col-4">
+                                <h:panelGroup styleClass="md-inputfield" id="nome">
+                                    <h:outputLabel value="Nome: #{visualizarPaciente.paciente.pessoa.nome}"/>
+                                </h:panelGroup>
+                                <h:panelGroup styleClass="md-inputfield" id="sex">
+                                    <h:outputLabel value="sexo:"/>
+                                </h:panelGroup>
+                                <h:panelGroup styleClass="md-inputfield" id="nascimento">
+                                    <h:outputLabel value="Nascimento:"/>
+                                </h:panelGroup>
+                            </p:panelGrid>
+                            <br/>
+                        </p:fieldset>
+                    </h:panelGroup>
+                </div>
+            </div>
         </h:form>
     </ui:define>
 
