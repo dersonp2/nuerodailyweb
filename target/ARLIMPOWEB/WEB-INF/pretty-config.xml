@@ -73,17 +73,22 @@
 
     <url-mapping id="cadastroPaciente">
         <pattern value="/cadastroPaciente"></pattern>
-        <view-id value="/pages/public/neuro/cadastro-paciente.xhtml"/>
+        <view-id value="/pages/public/neuro/paciente/cadastro-paciente.xhtml"/>
     </url-mapping>
 
     <url-mapping id="pacientes">
         <pattern value="/pacientes"></pattern>
-        <view-id value="/pages/public/neuro/pacientes.xhtml"/>
+        <view-id value="/pages/public/neuro/paciente/pacientes.xhtml"/>
     </url-mapping>
 
     <url-mapping id="buscarPaciente">
         <pattern value="/buscarPaciente"></pattern>
-        <view-id value="/pages/public/neuro/buscar-paciente.xhtml"/>
+        <view-id value="/pages/public/neuro/paciente/buscar-paciente.xhtml"/>
+    </url-mapping>
+
+    <url-mapping id="visualizarPaciente">
+        <pattern value="/visualizarPaciente"></pattern>
+        <view-id value="/pages/public/neuro/paciente/visualizar-paciente.xhtml"/>
     </url-mapping>
 
 

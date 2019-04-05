@@ -26,6 +26,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="ui-g" style="margin-top: -13px;">
                 <div class="ui-g-12">
                     <p:toolbar>
@@ -57,17 +58,24 @@
                                      emptyMessage="Nenhum Paciente encontrado."
                                      paginatorPosition="bottom">
 
-                            <p:column headerText="Paciente" style="text-align: center">
+                            <p:column headerText="Paciente" style="text-align: center" width="45%" >
                                 <h:outputText value="#{paciente.pessoa.nome}"/>
                             </p:column>
-                            <p:column headerText="Responsável" style="text-align: center">
+                            <p:column headerText="Responsável" style="text-align: center" width="45%">
                                 <h:outputText  value="#{paciente.responsavel.nome}"/>
                             </p:column>
 
-                            <p:column headerText="Opções">
+                            <p:column headerText="Opções" width="10%">
                                 <p:commandButton
                                         title="Visualizar"
                                         icon="ui-icon-remove-red-eye"
+                                        process="@this"
+                                        update="@this"
+                                        action="#{buscarPacienteBean.visualizarPaciente(paciente)}"
+                                        style="margin-left:12px"/>
+                                <p:commandButton
+                                        title="Editar"
+                                        icon="ui-icon-create"
                                         process="@this"
                                         update="@this"
                                         style="margin-left:12px"/>

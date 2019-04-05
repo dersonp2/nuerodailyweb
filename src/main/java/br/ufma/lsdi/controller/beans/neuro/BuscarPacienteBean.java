@@ -1,8 +1,10 @@
 package br.ufma.lsdi.controller.beans.neuro;
 
+import br.ufma.lsdi.model.interscity.Resource;
 import br.ufma.lsdi.model.neuro.Paciente;
 import br.ufma.lsdi.model.neuro.Pessoa;
 import br.ufma.lsdi.service.neuro.PacienteClient;
+import br.ufma.lsdi.util.WebUtil;
 import lombok.Data;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;
@@ -39,11 +41,18 @@ public class BuscarPacienteBean {
         pacientes = new ArrayList<Paciente>();
         paciente = new Paciente();
         pessoa = new Pessoa();
+
+        pacientes = pacienteClient.getPacientes();
     }
 
     public void searchPacienteByNome(){
         if(pessoa.getNome() != null){
             pacientes = pacienteClient.getPacienteNome(pessoa.getNome());
         }
+    }
+
+    public String visualizarPaciente(Paciente paciente){
+        WebUtil.flashScope().put("paciente", paciente);
+        return "pretty:visualizarPaciente";
     }
 }

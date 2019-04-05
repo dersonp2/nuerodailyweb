@@ -28,4 +28,9 @@ public class PacienteClientFallback implements PacienteClient {
         return null;
     }
 
+    @Override
+    public List<Paciente> getPacientes() {
+        return null;
+    }
+
 }

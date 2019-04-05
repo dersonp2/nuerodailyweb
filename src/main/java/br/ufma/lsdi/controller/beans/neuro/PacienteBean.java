@@ -73,8 +73,12 @@ public class PacienteBean {
             try {
 
                 paciente = pacienteClient.savePaciente(pacienteHelper);
+                FacesContext.getCurrentInstance().addMessage(
+                        null, new FacesMessage(WebUtil.DADOS_SALVO));
             } catch (Exception e) {
                 e.printStackTrace();
+                FacesContext.getCurrentInstance().addMessage(
+                        null, new FacesMessage(WebUtil.ERROR_SALVAR));
             }
             if(paciente != null && paciente.getId() != null){
 

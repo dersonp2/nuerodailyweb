@@ -27,4 +27,6 @@ public interface PacienteClient {
     @RequestMapping(method = RequestMethod.GET, value = "/nome/{nome}")
     List<Paciente> getPacienteNome(@PathVariable("nome") String nome);
 
+    @RequestMapping(method = RequestMethod.GET)
+    List<Paciente> getPacientes();
 }

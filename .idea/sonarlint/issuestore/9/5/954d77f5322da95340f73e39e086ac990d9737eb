@@ -1,11 +1,11 @@
 
-Jsquid:S1068#"3Remove this unused "colectorService" private field.(ŸãËû
-^squid:HiddenFieldCheck>"<Rename "resource" which hides the field declared at line 33.(¦™ü”
+usquid:UselessImportCheck"QRemove this unused import 'com.mashape.unirest.http.exceptions.UnirestException'.(‡Ú…ˆ
 Wsquid:UselessImportCheck"3Remove this unused import 'br.ufma.lsdi.util.Util'.(üºÿƒ
-Usquid:S1854{"?Remove this useless assignment to local variable "jsonMatcher".(¿Ë¸a
+gsquid:CommentedOutCodeLine}"<This block of commented-out lines of code should be removed.(õÇó„úÿÿÿÿ
 [squid:UselessImportCheck
 "7Remove this unused import 'br.ufma.lsdi.util.DateUtil'.(éÙ¨ó
-usquid:UselessImportCheck"QRemove this unused import 'com.mashape.unirest.http.exceptions.UnirestException'.(‡Ú…ˆ
 bsquid:CommentedOutCodeLineq"<This block of commented-out lines of code should be removed.(êÕ©˜
 Fsquid:S1481{"0Remove this unused "jsonMatcher" local variable.(¿Ë¸a
-gsquid:CommentedOutCodeLine}"<This block of commented-out lines of code should be removed.(õÇó„úÿÿÿÿ
+^squid:HiddenFieldCheck>"<Rename "resource" which hides the field declared at line 33.(¦™ü”
+Usquid:S1854{"?Remove this useless assignment to local variable "jsonMatcher".(¿Ë¸a
+Jsquid:S1068#"3Remove this unused "colectorService" private field.(ŸãËû

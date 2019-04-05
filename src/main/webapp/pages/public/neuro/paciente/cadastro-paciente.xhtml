@@ -87,10 +87,12 @@
                                     </p:selectOneMenu>
                                 </h:panelGroup>
                                 <h:panelGroup styleClass="md-inputfield">
-                                    <p:inputMask mask="99/99/9999" id="itNascR"
-                                                 style="width: 50%;"
-                                                 value="#{pacienteBean.responsavel.nascimento}"/>
-                                    <p:outputLabel for=" itNascR" value="Nascimento do Responsável"/>
+                                    <p:calendar value="#{pacienteBean.responsavel.nascimento}"
+                                                required="true"
+                                                id="itNascR"
+                                                requiredMessage="Nascimento obrigatório"
+                                                mask="true" style="width: 100%;" pattern="dd/MM/yyyy"/>
+                                    <p:outputLabel for="itNascR" value="Nascimento"/>
                                 </h:panelGroup>
 
                                 <h:panelGroup styleClass="md-inputfield">
