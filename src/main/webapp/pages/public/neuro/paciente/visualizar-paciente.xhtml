@@ -4,6 +4,15 @@
                 xmlns:ui="http://java.sun.com/jsf/facelets"
                 xmlns:p="http://primefaces.org/ui" template="/WEB-INF/template.xhtml">
     <ui:define name="head">
+        <script type="text/javascript">
+            $(function () {
+                $(".btn-info").click(function (e) {
+                    e.preventDefault();
+                    el = $(this).data('element');
+                    $(el).toggle();
+                });
+            });
+        </script>
     </ui:define>
     <ui:define name="title">Paciente</ui:define>
     <ui:define name="content">
@@ -26,23 +35,87 @@
             </div>
             <div class="ui-g-12">
                 <div class="card card-w-title">
+                    <h3>Paciente</h3>
                     <h:panelGroup>
-                        <p:fieldset legend="Paciente" style="margin-bottom:20px">
-                            <p:panelGrid layout="grid" columns="5"
-                                         styleClass="ui-panelgrid-blank form-group"
-                                         columnClasses="ui-grid-col-6, ui-grid-col-3, ui-grid-col-2">
-                                <h:panelGroup styleClass="md-inputfield" id="sex">
-                                    <p:graphicImage value="#{graphicImageView.chart}"/>
-                                </h:panelGroup>
-                                <h:panelGroup styleClass="md-inputfield" id="nome">
-                                    <h:outputLabel value="Nome: #{visualizarPaciente.paciente.pessoa.nome}"/>
-                                </h:panelGroup>
-                                <h:panelGroup styleClass="md-inputfield" id="nascimento">
-                                    <h:outputLabel value="Nascimento:"/>
-                                </h:panelGroup>
-                            </p:panelGrid>
-                            <br/>
-                        </p:fieldset>
+                        <p:panelGrid layout="grid" columns="3"
+                                     styleClass="ui-panelgrid-blank form-group"
+                                     columnClasses="ui-grid-col-6, ui-grid-col-2, ui-grid-col-3">
+                            <h:panelGroup styleClass="md-inputfield" id="nome">
+                                <h:outputLabel value="Nome: #{visualizarPaciente.paciente.pessoa.nome}"/>
+                            </h:panelGroup>
+                            <h:panelGroup styleClass="md-inputfield" id="sexo">
+                                <h:outputLabel value="Sexo: #{visualizarPaciente.paciente.pessoa.sexo.descricao}"/>
+                            </h:panelGroup>
+                            <h:panelGroup styleClass="md-inputfield" id="nascimento">
+                                <h:outputLabel value="Nascimento: #{visualizarPaciente.paciente.pessoa.nascimento}"/>
+                            </h:panelGroup>
+                        </p:panelGrid>
+                        <br/>
+                        <h3>Responsavel</h3>
+                        <p:panelGrid layout="grid" columns="3"
+                                     styleClass="ui-panelgrid-blank form-group"
+                                     columnClasses="ui-grid-col-6, ui-grid-col-2, ui-grid-col-3">
+                            <h:panelGroup styleClass="md-inputfield" id="nomeR">
+                                <h:outputLabel value="Nome: #{visualizarPaciente.paciente.responsavel.nome}"/>
+                            </h:panelGroup>
+                            <h:panelGroup styleClass="md-inputfield" id="pacienteR">
+                                <h:outputLabel value="Sexo: #{visualizarPaciente.paciente.responsavel.sexo.descricao}"/>
+                            </h:panelGroup>
+                            <h:panelGroup styleClass="md-inputfield" id="nascimentoR">
+                                <h:outputLabel
+                                        value="Nascimento: #{visualizarPaciente.paciente.responsavel.nascimento}"/>
+                            </h:panelGroup>
+                        </p:panelGrid>
+                        <br/>
+                        <div style="display: #{visualizarPaciente.display}">
+                            <h3>Contato</h3>
+                        </div>
+                        <p:panelGrid layout="grid" columns="3"
+                                     id="pgContato"
+                                     styleClass="ui-panelgrid-blank form-group"
+                                     columnClasses="ui-grid-col-6, ui-grid-col-2, ui-grid-col-3"
+                                     rendered="#{visualizarPaciente.show}">
+                            <h:panelGroup styleClass="md-inputfield" id="Telefone">
+                                <h:outputLabel value="Tefefone:"/>
+                            </h:panelGroup>
+                            <h:panelGroup styleClass="md-inputfield" id="Telefone2">
+                                <h:outputLabel value="Telefone 2:"/>
+                            </h:panelGroup>
+                            <h:panelGroup styleClass="md-inputfield" id="E-mail">
+                                <h:outputLabel
+                                        value="E-mail:"/>
+                            </h:panelGroup>
+                        </p:panelGrid>
+                        <br/>
+                        <div style="display: #{visualizarPaciente.display}">
+                            <h3>Endereço</h3>
+                        </div>
+                        <p:panelGrid layout="grid" columns="4"
+                                     id="pgEndereco"
+                                     styleClass="ui-panelgrid-blank form-group"
+                                     columnClasses="ui-grid-col-3, ui-grid-col-3, ui-grid-col-4, ui-grid-col-2"
+                                     rendered="#{visualizarPaciente.show}">
+                            <h:panelGroup styleClass="md-inputfield" id="Cidade">
+                                <h:outputLabel value="Cidade:"/>
+                            </h:panelGroup>
+                            <h:panelGroup styleClass="md-inputfield" id="Bairro">
+                                <h:outputLabel value="Bairro:"/>
+                            </h:panelGroup>
+                            <h:panelGroup styleClass="md-inputfield" id="Rua">
+                                <h:outputLabel
+                                        value="Rua:"/>
+                            </h:panelGroup>
+                            <h:panelGroup styleClass="md-inputfield" id="Número">
+                                <h:outputLabel
+                                        value="Número:"/>
+                            </h:panelGroup>
+                        </p:panelGrid>
+                        <br/>
+                        <br/>
+                        <p:commandButton value="Mais Informações" id="info"
+                                         style="margin-right:20px;"
+                                         action="#{visualizarPaciente.showRendered}"
+                                         update="@form"/>
                     </h:panelGroup>
                 </div>
             </div>

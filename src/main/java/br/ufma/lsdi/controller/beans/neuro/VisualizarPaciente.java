@@ -28,6 +28,14 @@ public class VisualizarPaciente implements Serializable {
 
     @Getter
     @Setter
+    private boolean show;
+
+    @Getter
+    @Setter
+    private String display;
+
+    @Getter
+    @Setter
     private Pessoa pessoa;
     @Getter
     @Setter
@@ -38,6 +46,8 @@ public class VisualizarPaciente implements Serializable {
         paciente = new Paciente();
         pessoa = new Pessoa();
         getObjetoFlashScope();
+        show = false;
+        display = "none";
     }
 
 
@@ -56,6 +66,16 @@ public class VisualizarPaciente implements Serializable {
         String redirect = "pretty:buscarPaciente";
         NavigationHandler myNav = facesContext.getApplication().getNavigationHandler();
         myNav.handleNavigation(facesContext, null, redirect);
+    }
+
+    public void showRendered(){
+        if(show){
+            show = false;
+            display = "none";
+        } else{
+            show = true;
+            display = "block";
+        }
     }
 
 }
