@@ -16,6 +16,11 @@ import javax.annotation.PostConstruct;
 import javax.faces.application.NavigationHandler;
 import javax.faces.context.FacesContext;
 import java.io.Serializable;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.time.format.DateTimeFormatter;
+import java.time.temporal.TemporalAccessor;
+import java.util.Date;
 import java.util.List;
 
 @Scope("view")
@@ -55,6 +60,11 @@ public class VisualizarPaciente implements Serializable {
 
         if (WebUtil.flashScope().get("paciente") != null) {
             paciente = (Paciente) WebUtil.flashScope().get("paciente");
+
+//            String[] data = paciente.getPessoa().getNascimento().split("-");
+//
+//            paciente.getPessoa().setNascimento(data[2] + "-" + data[1] + "-" + data[0]);
+
         } else {
             redirect();
         }
@@ -68,11 +78,11 @@ public class VisualizarPaciente implements Serializable {
         myNav.handleNavigation(facesContext, null, redirect);
     }
 
-    public void showRendered(){
-        if(show){
+    public void showRendered() {
+        if (show) {
             show = false;
             display = "none";
-        } else{
+        } else {
             show = true;
             display = "block";
         }

@@ -8,6 +8,9 @@ import org.springframework.cloud.netflix.feign.EnableFeignClients;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
+import javax.annotation.PostConstruct;
+import java.util.TimeZone;
+
 @SpringBootApplication
 @EnableFeignClients(basePackages = {"br.ufma.lsdi.service"})
 @EnableCaching
@@ -15,6 +18,11 @@ public class ArLimpoWevApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(ArLimpoWevApplication.class, args);
+    }
+
+    @PostConstruct
+    public void init(){
+        TimeZone.setDefault(TimeZone.getTimeZone("UTC"));
     }
 
     @Bean

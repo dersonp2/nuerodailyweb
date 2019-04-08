@@ -5,9 +5,8 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import javax.persistence.*;
 import java.io.Serializable;
-import java.util.Date;
+import java.time.LocalDate;
 
 
 @Data
@@ -18,7 +17,7 @@ public class Pessoa implements Serializable {
 
     private Long id;
     private String nome;
-    private Date nascimento;
+    private LocalDate nascimento;
     private Sexo sexo;
 
 }

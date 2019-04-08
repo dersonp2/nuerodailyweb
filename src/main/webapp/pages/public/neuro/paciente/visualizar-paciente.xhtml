@@ -14,7 +14,7 @@
             });
         </script>
     </ui:define>
-    <ui:define name="title">Paciente</ui:define>
+    <ui:define name="title">PACIENTE</ui:define>
     <ui:define name="content">
         <h:form id="form" prependId="false">
             <!-- MESSAGES -->
@@ -35,19 +35,20 @@
             </div>
             <div class="ui-g-12">
                 <div class="card card-w-title">
-                    <h3>Paciente</h3>
+                    <h3>PACIENTE</h3>
                     <h:panelGroup>
                         <p:panelGrid layout="grid" columns="3"
                                      styleClass="ui-panelgrid-blank form-group"
                                      columnClasses="ui-grid-col-6, ui-grid-col-2, ui-grid-col-3">
                             <h:panelGroup styleClass="md-inputfield" id="nome">
-                                <h:outputLabel value="Nome: #{visualizarPaciente.paciente.pessoa.nome}"/>
+                                <h:outputLabel value="NOME: #{visualizarPaciente.paciente.pessoa.nome}"/>
                             </h:panelGroup>
                             <h:panelGroup styleClass="md-inputfield" id="sexo">
-                                <h:outputLabel value="Sexo: #{visualizarPaciente.paciente.pessoa.sexo.descricao}"/>
+                                <h:outputLabel value="SEXO: #{visualizarPaciente.paciente.pessoa.sexo.descricao}"/>
                             </h:panelGroup>
                             <h:panelGroup styleClass="md-inputfield" id="nascimento">
-                                <h:outputLabel value="Nascimento: #{visualizarPaciente.paciente.pessoa.nascimento}"/>
+                                <h:outputLabel value="NASCIMENTO: #{visualizarPaciente.paciente.pessoa.nascimento}">
+                                </h:outputLabel>
                             </h:panelGroup>
                         </p:panelGrid>
                         <br/>
@@ -56,14 +57,14 @@
                                      styleClass="ui-panelgrid-blank form-group"
                                      columnClasses="ui-grid-col-6, ui-grid-col-2, ui-grid-col-3">
                             <h:panelGroup styleClass="md-inputfield" id="nomeR">
-                                <h:outputLabel value="Nome: #{visualizarPaciente.paciente.responsavel.nome}"/>
+                                <h:outputLabel value="NOME: #{visualizarPaciente.paciente.responsavel.nome}"/>
                             </h:panelGroup>
                             <h:panelGroup styleClass="md-inputfield" id="pacienteR">
-                                <h:outputLabel value="Sexo: #{visualizarPaciente.paciente.responsavel.sexo.descricao}"/>
+                                <h:outputLabel value="SEXO: #{visualizarPaciente.paciente.responsavel.sexo.descricao}"/>
                             </h:panelGroup>
                             <h:panelGroup styleClass="md-inputfield" id="nascimentoR">
                                 <h:outputLabel
-                                        value="Nascimento: #{visualizarPaciente.paciente.responsavel.nascimento}"/>
+                                        value="NASCIMENTO: #{visualizarPaciente.paciente.responsavel.nascimento}"/>
                             </h:panelGroup>
                         </p:panelGrid>
                         <br/>
@@ -76,14 +77,14 @@
                                      columnClasses="ui-grid-col-6, ui-grid-col-2, ui-grid-col-3"
                                      rendered="#{visualizarPaciente.show}">
                             <h:panelGroup styleClass="md-inputfield" id="Telefone">
-                                <h:outputLabel value="Tefefone:"/>
+                                <h:outputLabel value="TEFEFONE:"/>
                             </h:panelGroup>
                             <h:panelGroup styleClass="md-inputfield" id="Telefone2">
-                                <h:outputLabel value="Telefone 2:"/>
+                                <h:outputLabel value="TELEFONE 2:"/>
                             </h:panelGroup>
                             <h:panelGroup styleClass="md-inputfield" id="E-mail">
                                 <h:outputLabel
-                                        value="E-mail:"/>
+                                        value="E-MAIL:"/>
                             </h:panelGroup>
                         </p:panelGrid>
                         <br/>
@@ -96,18 +97,18 @@
                                      columnClasses="ui-grid-col-3, ui-grid-col-3, ui-grid-col-4, ui-grid-col-2"
                                      rendered="#{visualizarPaciente.show}">
                             <h:panelGroup styleClass="md-inputfield" id="Cidade">
-                                <h:outputLabel value="Cidade:"/>
+                                <h:outputLabel value="CIDADE:"/>
                             </h:panelGroup>
                             <h:panelGroup styleClass="md-inputfield" id="Bairro">
-                                <h:outputLabel value="Bairro:"/>
+                                <h:outputLabel value="BAIRRO:"/>
                             </h:panelGroup>
                             <h:panelGroup styleClass="md-inputfield" id="Rua">
                                 <h:outputLabel
-                                        value="Rua:"/>
+                                        value="RUA:"/>
                             </h:panelGroup>
                             <h:panelGroup styleClass="md-inputfield" id="Número">
                                 <h:outputLabel
-                                        value="Número:"/>
+                                        value="NÚMERO:"/>
                             </h:panelGroup>
                         </p:panelGrid>
                         <br/>
